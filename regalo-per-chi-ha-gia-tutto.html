@@ -576,6 +576,18 @@
       .tl-visual::before{inset:18px;border-radius:20px}
     }
 
+
+
+    /* REV3 - menu mobile visibile */
+    .tl-mobile-nav{display:none}
+    @media(max-width:860px){
+      .tl-topbar{padding:14px 0 8px}
+      .tl-nav{align-items:center}
+      .tl-topbar .tl-button{white-space:nowrap}
+      .tl-mobile-nav{display:flex;gap:16px;overflow-x:auto;white-space:nowrap;padding:8px 0 0;font-family:Arial,sans-serif;font-size:13px;color:var(--muted)}
+      .tl-mobile-nav a{padding:7px 0;text-decoration:none}
+      .tl-mobile-nav a.current{font-weight:800;color:var(--ink)}
+    }
   </style>
 
   <script type="application/ld+json">
