@@ -522,6 +522,18 @@
         padding: 50px 0;
       }
     }
+  
+    /* V2 - Logo TL + prezzo hero */
+    .tl-brand{display:flex;align-items:center;gap:10px;white-space:nowrap}
+    .tl-brand-logo{width:44px;height:44px;object-fit:contain;flex:0 0 auto}
+    .tl-hero-logo{width:104px;height:104px;object-fit:contain;margin:0 0 20px;filter:drop-shadow(0 18px 40px rgba(32,27,19,.18))}
+    .tl-price-pill{display:inline-flex;align-items:center;margin:22px 0 0;padding:11px 18px;border:1px solid var(--line);border-radius:999px;background:rgba(255,253,248,.72);color:var(--ink);font-family:Arial,sans-serif;font-weight:800;font-size:15px}
+    @media(max-width:860px){
+      .tl-brand-logo{width:42px;height:42px}
+      .tl-hero-logo{width:84px;height:84px}
+      .tl-topbar .tl-button{padding:11px 15px;font-size:13px;min-height:42px}
+    }
+
   </style>
 
   <script type="application/ld+json">
@@ -537,15 +549,15 @@
     "offers": [
       {
         "@type": "Offer",
-        "name": "Il Dono Essenziale",
-        "price": "79",
+        "name": "Consulto Privato",
+        "price": "40",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock"
       },
       {
         "@type": "Offer",
-        "name": "Il Dono Completo",
-        "price": "139",
+        "name": "Il Dono Tarocchi Liquidi",
+        "price": "90",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock"
       },
@@ -565,7 +577,7 @@
   <main class="tl-page">
     <header class="tl-topbar">
       <div class="tl-container tl-nav">
-        <a class="tl-brand" href="/">Tarocchi Liquidi</a>
+        <a class="tl-brand" href="/"><img class="tl-brand-logo" src="assets/logo-tl.png" alt=""><span>Tarocchi Liquidi</span></a>
         <nav class="tl-navlinks" aria-label="Navigazione principale">
           <a href="#contenuto">Cosa contiene</a>
           <a href="#formule">Formule</a>
@@ -579,13 +591,15 @@
     <section class="tl-hero">
       <div class="tl-container tl-hero-grid">
         <div>
+          <img class="tl-hero-logo" src="assets/logo-tl.png" alt="Tarocchi Liquidi">
           <p class="tl-kicker">Il Dono Tarocchi Liquidi</p>
           <h1>Il regalo per chi ha già tutto.</h1>
           <p class="tl-lead">
             Un cofanetto personale, preparato per una sola persona, con un Tarocco Liquido e un incontro privato di orientamento.
           </p>
+          <p class="tl-price-pill">Da €90 — cofanetto personalizzato + consulto privato</p>
           <div class="tl-hero-actions">
-            <a class="tl-button" href="https://wa.me/393282924284?text=Ciao%20Paolo%2C%20vorrei%20regalare%20Il%20Dono%20Tarocchi%20Liquidi.%20La%20persona%20si%20chiama%3A" target="_blank" rel="noopener">Scrivimi il nome della persona</a>
+            <a class="tl-button" href="https://wa.me/393282924284?text=Ciao%20Paolo%2C%20vorrei%20regalare%20Il%20Dono%20Tarocchi%20Liquidi.%20La%20persona%20si%20chiama%3A" target="_blank" rel="noopener">Regala Il Dono</a>
             <a class="tl-button secondary" href="#formule">Vedi le formule</a>
           </div>
           <p class="tl-note">
@@ -698,28 +712,27 @@
 
         <div class="tl-offers">
           <article class="tl-offer">
-            <span class="tl-badge">Essenziale</span>
-            <h3>Il Dono Essenziale</h3>
-            <div class="tl-price">€79</div>
-            <p>Per un primo incontro personale, semplice e curato.</p>
+            <span class="tl-badge">Consulenza</span>
+            <h3>Consulto Privato</h3>
+            <div class="tl-price">€40</div>
+            <p>Per chi desidera vivere direttamente un incontro personale, a Roma oppure online.</p>
             <ul>
-              <li>Cofanetto personalizzato</li>
-              <li>Tarocco Liquido</li>
-              <li>Cartoncini dedicati</li>
-              <li>Incontro privato breve</li>
+              <li>30 minuti</li>
+              <li>In presenza o a distanza</li>
+              <li>Spazio di ascolto e orientamento</li>
             </ul>
           </article>
 
           <article class="tl-offer featured">
-            <span class="tl-badge">Consigliato</span>
-            <h3>Il Dono Completo</h3>
-            <div class="tl-price">€139</div>
-            <p>La formula più equilibrata per un dono pieno e memorabile.</p>
+            <span class="tl-badge">Dono</span>
+            <h3>Il Dono Tarocchi Liquidi</h3>
+            <div class="tl-price">€90</div>
+            <p>La formula principale: cofanetto personalizzato più incontro privato.</p>
             <ul>
               <li>Cofanetto personalizzato</li>
               <li>Tarocco Liquido</li>
               <li>Cartoncini dedicati</li>
-              <li>Consulto più approfondito</li>
+              <li>Consulto privato di 30 minuti</li>
             </ul>
           </article>
 
@@ -727,7 +740,7 @@
             <span class="tl-badge">Percorso</span>
             <h3>Il Dono Percorso</h3>
             <div class="tl-price">€260</div>
-            <p>Per accompagnare una persona in un momento importante.</p>
+            <p>Per accompagnare una persona in un momento importante con tre incontri.</p>
             <ul>
               <li>Cofanetto personalizzato</li>
               <li>Tarocco Liquido</li>

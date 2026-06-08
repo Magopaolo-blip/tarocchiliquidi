@@ -107,12 +107,35 @@
     .how-section .cta{margin-top:28px}
     @media(max-width:900px){.how-section{padding:74px 0 66px}.how-head{grid-template-columns:1fr;gap:20px;margin-bottom:30px}.how-head h2{font-size:42px;line-height:1}.how-head p{font-size:19px}.how-grid{grid-template-columns:1fr}.how-card{min-height:auto;padding:30px}.how-number{margin-bottom:28px}.how-card h3{font-size:31px}.unboxing-box{grid-template-columns:1fr;padding:28px}.unboxing-copy h3{font-size:32px}.unboxing-frame:after{width:60px;height:60px;font-size:24px}}
 
+  
+    /* V16 - Logo TL + hero orientata alla vendita */
+    .brand{display:flex;align-items:center;gap:10px;white-space:nowrap}
+    .brand-logo{width:46px;height:46px;object-fit:contain;flex:0 0 auto}
+    .brand-text{font-family:Georgia,serif;font-size:25px;letter-spacing:-.03em}
+    .hero-logo{width:96px;height:96px;object-fit:contain;margin:0 0 22px;filter:drop-shadow(0 18px 44px rgba(0,0,0,.32))}
+    .hero p.hero-price{display:inline-flex;align-items:center;margin:24px 0 0;padding:11px 18px;border:1px solid rgba(238,230,217,.35);border-radius:999px;background:rgba(238,230,217,.13);color:#f2eadc;font-weight:800;font-size:18px;line-height:1.2;letter-spacing:-.01em}
+    .hero .cta{margin-top:34px}
+    @media(max-width:900px){
+      .nav .pill{width:auto;min-width:0;padding:12px 28px}
+      .brand-logo{width:44px;height:44px}
+      .brand-text{font-size:22px}
+      .hero-logo{width:76px;height:76px;margin-bottom:18px}
+      .hero h1{font-size:clamp(46px,12vw,58px);line-height:.96}
+      .hero p.sub{font-size:21px;line-height:1.42;margin-top:24px}
+      .hero p.hero-price{font-size:16px;padding:10px 15px;margin-top:20px}
+      .hero p.hero-note{font-size:21px;line-height:1.34;margin-top:18px}
+    }
+    @media(max-width:380px){
+      .brand-text{display:none}
+      .nav .pill{padding:12px 24px}
+    }
+
   </style>
 </head>
 <body>
-  <header class="nav"><div class="wrap"><a class="brand" href="#top">Tarocchi Liquidi</a><nav class="menu"><a href="/regalo-per-chi-ha-gia-tutto.html">Il Dono</a><a href="#consulto">Consulto</a><a href="#tarocchi">Tarocchi</a><a href="#eventi">Eventi</a><a href="#paolo">Paolo Musetti</a></nav><a class="pill" href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20privato%20con%20i%20Tarocchi%20Liquidi." target="_blank" rel="noopener">Prenota</a></div></header>
+  <header class="nav"><div class="wrap"><a class="brand" href="#top" aria-label="Tarocchi Liquidi"><img class="brand-logo" src="assets/logo-tl.png" alt=""><span class="brand-text">Tarocchi Liquidi</span></a><nav class="menu"><a href="/regalo-per-chi-ha-gia-tutto.html">Il Dono</a><a href="#consulto">Consulto</a><a href="#tarocchi">Tarocchi</a><a href="#eventi">Eventi</a><a href="#paolo">Paolo Musetti</a></nav><a class="pill" href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20privato%20con%20i%20Tarocchi%20Liquidi." target="_blank" rel="noopener">Prenota</a></div></header>
   <main>
-    <section id="top" class="hero"><div class="wrap"><p class="kicker">Tarocchi · Numerologia · Doni personalizzati</p><h1>I Tarocchi raccontano storie.<br>Alcune parlano di te.</h1><p class="sub">Un dono personalizzato con Tarocco Liquido, lettura numerologica e incontro privato.</p><p class="hero-note">Per chi cerca un regalo che non sembri un regalo qualunque.</p><div class="cta"><a href="/regalo-per-chi-ha-gia-tutto.html" class="pill light hero-primary">Scopri Il Dono</a><a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20privato%20con%20i%20Tarocchi%20Liquidi." target="_blank" rel="noopener" class="pill outline hero-secondary">Prenota un consulto</a></div><p class="meta">Il Dono personalizzato · Consulto privato · Eventi su richiesta</p></div></section>
+    <section id="top" class="hero"><div class="wrap"><img class="hero-logo" src="assets/logo-tl.png" alt="Tarocchi Liquidi"><p class="kicker">Il Dono Tarocchi Liquidi</p><h1>Il regalo per chi ha già tutto.</h1><p class="sub">Un cofanetto personale, realizzato per una sola persona, con Tarocco Liquido, lettura numerologica e incontro privato.</p><p class="hero-price">Da €90 — cofanetto personalizzato + consulto privato</p><p class="hero-note">Per chi cerca un regalo che non sembri un regalo qualunque.</p><div class="cta"><a href="/regalo-per-chi-ha-gia-tutto.html" class="pill light hero-primary">Regala Il Dono</a><a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20privato%20con%20i%20Tarocchi%20Liquidi." target="_blank" rel="noopener" class="pill outline hero-secondary">Prenota un consulto</a></div><p class="meta">Il Dono personalizzato · Consulto privato · Eventi su richiesta</p></div></section>
     <section class="strip"><div class="wrap"><h2>Tarocchi Liquidi</h2><p>Il Dono personalizzato · Consulti · Tarocchi Social Club</p></div></section>
 
     <section id="come-funziona" class="how-section">
