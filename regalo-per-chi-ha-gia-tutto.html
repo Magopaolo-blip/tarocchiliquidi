@@ -534,6 +534,31 @@
       .tl-topbar .tl-button{padding:11px 15px;font-size:13px;min-height:42px}
     }
 
+  
+    /* V3 - Visual prodotto efficace + riduzione spazio mobile */
+    .tl-visual{
+      background:
+        linear-gradient(90deg, rgba(32,27,19,.28), rgba(32,27,19,.08)),
+        url('/assets/dono-hero-product.jpg') center / cover no-repeat !important;
+    }
+    .tl-visual::before{
+      border-color: rgba(255,250,242,.18);
+      background: linear-gradient(180deg, rgba(255,250,242,.04), transparent);
+    }
+    .tl-box-mockup{display:none}
+    @media(max-width:860px){
+      .tl-hero{padding:34px 0 44px}
+      .tl-hero-grid{gap:28px}
+      .tl-hero-logo{width:76px;height:76px;margin-bottom:10px}
+      .tl-kicker{margin-bottom:10px}
+      .tl-lead{margin-top:18px}
+      .tl-price-pill{margin-top:18px}
+      .tl-hero-actions{margin-top:22px}
+      .tl-note{margin-top:14px}
+      .tl-visual{min-height:340px;border-radius:26px}
+      .tl-visual::before{inset:18px;border-radius:20px}
+    }
+
   </style>
 
   <script type="application/ld+json">
