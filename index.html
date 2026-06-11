@@ -252,6 +252,38 @@
     }
     @media(max-width:520px){.tl-mobile-panel{top:70px}}
 
+
+
+    /* V18 - Scelta rapida mobile per aumentare profondità e conversione */
+    .quick-choice{background:var(--cream);color:var(--ink);padding:42px 0 50px;border-bottom:1px solid var(--line)}
+    .quick-choice .quick-head{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:20px}
+    .quick-choice h2{font-family:Georgia,serif;font-size:clamp(34px,3.6vw,56px);line-height:1;letter-spacing:-.052em;margin:0;max-width:720px}
+    .quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .quick-card{display:flex;flex-direction:column;gap:12px;min-height:190px;border:1px solid rgba(23,21,18,.14);border-radius:28px;background:#f6f0e7;padding:24px;box-shadow:0 18px 52px rgba(23,21,18,.055);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+    .quick-card:hover{transform:translateY(-2px);border-color:rgba(23,21,18,.28);box-shadow:0 24px 70px rgba(23,21,18,.09)}
+    .quick-card .quick-num{font-family:Georgia,serif;font-size:28px;line-height:1;color:var(--gold)}
+    .quick-card strong{display:block;font-family:Georgia,serif;font-size:29px;line-height:1.05;letter-spacing:-.035em;font-weight:400;color:#171512}
+    .quick-card span.quick-text{display:block;margin-top:auto;font-size:16px;line-height:1.42;color:#6b6259}
+    .quick-card .quick-arrow{font-size:20px;line-height:1;color:#171512}
+    @media(max-width:900px){
+      .hero{min-height:auto}
+      .hero .wrap{padding-top:38px;padding-bottom:42px}
+      .hero-logo{display:none}
+      .hero .meta{display:none}
+      .hero p.hero-note{font-size:18px;margin-top:16px}
+      .quick-choice{padding:28px 0 34px}
+      .quick-choice .quick-head{display:block;margin-bottom:16px}
+      .quick-choice .kicker{margin-bottom:10px}
+      .quick-choice h2{font-size:34px;line-height:1.02}
+      .quick-grid{grid-template-columns:1fr;gap:10px}
+      .quick-card{min-height:auto;border-radius:22px;padding:20px;display:grid;grid-template-columns:34px 1fr 18px;gap:12px;align-items:center}
+      .quick-card .quick-num{font-size:24px}
+      .quick-card strong{font-size:23px;line-height:1.05}
+      .quick-card span.quick-text{grid-column:2 / 4;margin-top:0;font-size:15px;line-height:1.35}
+      .quick-card .quick-arrow{grid-column:3;grid-row:1;align-self:center}
+      .strip{display:none}
+    }
+
   </style>
 </head>
 <body>
@@ -269,6 +301,36 @@
 </nav>
   <main>
     <section id="top" class="hero"><div class="wrap"><img class="hero-logo" src="/assets/logo-tl-v2.png" alt=""><p class="kicker">Il Dono Tarocchi Liquidi</p><h1>Il regalo per chi ha già tutto.</h1><p class="sub">Un cofanetto personale, realizzato per una sola persona, con Tarocco Liquido, lettura numerologica e incontro privato.</p><p class="hero-price">Da €90 — cofanetto personalizzato + consulto privato</p><div class="cta"><a href="/regalo-per-chi-ha-gia-tutto.html" class="pill light hero-primary">Regala Il Dono</a><a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20privato%20con%20i%20Tarocchi%20Liquidi." target="_blank" rel="noopener" class="pill outline hero-secondary">Prenota un consulto</a></div><p class="hero-note">Per chi cerca un regalo che non sembri un regalo qualunque.</p><p class="meta">Il Dono personalizzato · Consulto privato · Eventi su richiesta</p></div></section>
+    <section class="quick-choice" aria-label="Scelta rapida Tarocchi Liquidi">
+      <div class="wrap">
+        <div class="quick-head">
+          <div>
+            <p class="kicker dark">Scelta rapida</p>
+            <h2>Che cosa stai cercando?</h2>
+          </div>
+        </div>
+        <div class="quick-grid">
+          <a class="quick-card" href="/regalo-per-chi-ha-gia-tutto.html">
+            <span class="quick-num">01</span>
+            <strong>Voglio fare un regalo speciale</strong>
+            <span class="quick-text">Scopri Il Dono personalizzato con cofanetto e consulto privato.</span>
+            <span class="quick-arrow">→</span>
+          </a>
+          <a class="quick-card" href="/primo-passo.html">
+            <span class="quick-num">02</span>
+            <strong>Voglio un consulto privato</strong>
+            <span class="quick-text">Un incontro di 30 minuti, a Roma oppure online, per fare chiarezza.</span>
+            <span class="quick-arrow">→</span>
+          </a>
+          <a class="quick-card" href="#eventi">
+            <span class="quick-num">03</span>
+            <strong>Voglio organizzare un evento</strong>
+            <span class="quick-text">Format per addii al nubilato, locali, cene private e gruppi.</span>
+            <span class="quick-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
     <section class="strip"><div class="wrap"><h2>Tarocchi Liquidi</h2><p>Il Dono personalizzato · Consulti · Tarocchi Social Club</p></div></section>
 
     <section id="come-funziona" class="how-section">
