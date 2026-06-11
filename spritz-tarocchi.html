@@ -55,43 +55,98 @@
     @media(max-width:920px){.wrap{width:min(var(--max),calc(100% - 30px))}.menu{display:none}.nav-main{height:66px}.brand{font-size:21px}.brand img{width:40px;height:40px}.nav .pill{width:auto;min-height:42px;padding:10px 16px;font-size:14px}.mobile-menu{display:flex;gap:16px;overflow-x:auto;white-space:nowrap;padding:0 15px 10px;margin-top:-2px;font-size:13px;color:#514a43}.mobile-menu a{padding:8px 0}.mobile-menu a.active{color:var(--ink);font-weight:800}.hero{padding:42px 0 46px}.hero-grid,.grid2,.grid3,.benefit-grid,.split-img{grid-template-columns:1fr}.hero h1{font-size:48px;line-height:.96}.hero h2{font-size:27px}.lead,.head p,.text p{font-size:18px}.cta .pill{width:100%;padding-left:18px;padding-right:18px}.hero-photo{border-radius:30px}.hero-photo img{aspect-ratio:4/3}.hero-caption{position:relative;left:auto;bottom:auto;margin:0;border-radius:0;border-left:0;border-right:0;border-bottom:0}.section{padding:50px 0}.head h2{font-size:39px}.benefit-box{padding:28px}.benefit-box h3{font-size:33px}.rounded-img img{aspect-ratio:16/10}.final{padding:54px 0}.final-card{padding:30px 22px}.footer .wrap{flex-direction:column}.share-box .pill{width:100%}}
   
 
-    /* REV5 - menu mobile robust */
-    .mobile-menu{display:none!important}
-    @media(max-width:920px){
-      .nav{background:#eee6d9!important;color:#171512!important}
-      .mobile-menu{display:block!important;overflow-x:auto!important;white-space:nowrap!important;padding:0 15px 11px!important;border-top:1px solid rgba(23,21,18,.10)!important;background:#eee6d9!important;color:#514a43!important;box-shadow:0 8px 18px rgba(0,0,0,.08)!important;-webkit-overflow-scrolling:touch!important}
-      .mobile-menu a{display:inline-block!important;margin-right:18px!important;padding:8px 0!important;color:#514a43!important;text-decoration:none!important;font-size:13px!important;line-height:1.2!important}
-      .mobile-menu a:last-child{margin-right:0!important}
-      .mobile-menu a.current,.mobile-menu a.active{font-weight:800!important;color:#171512!important}
+    /* MENU MOBILE HAMBURGER - Tarocchi Liquidi */
+    .tl-hamburger{
+      display:none;
+      width:44px;
+      height:44px;
+      border-radius:999px;
+      border:1px solid rgba(23,21,18,.22);
+      background:rgba(246,240,231,.82);
+      color:#171512;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      gap:5px;
+      cursor:pointer;
+      padding:0;
+      box-shadow:0 10px 26px rgba(0,0,0,.08);
+      -webkit-tap-highlight-color:transparent;
+      flex:0 0 auto;
     }
-
-  
-    .poster-img{background:#15130f;padding:10px;border-color:rgba(184,148,88,.28)}
-    .poster-img img{aspect-ratio:3/4!important;object-fit:cover!important;object-position:center!important;border-radius:28px}
-    @media(max-width:920px){.poster-img img{aspect-ratio:3/4!important}}
-
-  
-
-    /* REV6 - menu hamburger mobile definitivo */
-    .mobile-menu-toggle{display:none;border:1px solid rgba(23,21,18,.18);background:#171512;color:#eee6d9;border-radius:999px;padding:10px 15px;font:inherit;font-size:14px;font-weight:800;line-height:1;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,.10)}
-    .mobile-menu-panel{display:none}
-    @media(max-width:920px){
-      .menu,.links,.tl-navlinks{display:none!important}
-      .mobile-menu,.tl-mobile-nav{display:none!important}
-      .nav,.topbar,.tl-topbar{height:auto!important;overflow:visible!important}
-      .nav-main,.nav>.wrap,.topbar .nav,.tl-nav{min-height:66px!important;height:66px!important;gap:12px!important}
-      .brand,.tl-brand{min-width:0!important}
-      .brand span,.brand-text,.tl-brand span{white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}
-      .nav-main>.pill,header.nav>.wrap>.pill,.tl-topbar .tl-nav>.tl-button{display:none!important}
-      .mobile-menu-toggle{display:inline-flex!important;align-items:center;justify-content:center;flex:0 0 auto;min-height:42px}
-      .mobile-menu-panel{display:none;position:absolute;left:14px;right:14px;top:calc(100% + 8px);z-index:999;background:#f8f1e6;border:1px solid rgba(23,21,18,.14);border-radius:24px;padding:10px;box-shadow:0 24px 70px rgba(23,21,18,.24)}
-      .mobile-menu-panel.is-open{display:grid!important;gap:6px}
-      .mobile-menu-panel a{display:flex!important;align-items:center;justify-content:space-between;padding:13px 14px;border-radius:16px;color:#171512!important;text-decoration:none!important;font-size:15px!important;font-weight:650!important;line-height:1.2!important;background:rgba(255,255,255,.34);border:1px solid rgba(23,21,18,.07)}
-      .mobile-menu-panel a.active,.mobile-menu-panel a.current{background:#171512!important;color:#eee6d9!important;border-color:#171512!important;font-weight:800!important}
-      .mobile-menu-panel a:last-child{background:#efe2c7!important;color:#171512!important;border-color:rgba(184,148,88,.36)!important;font-weight:800!important}
-      body.menu-open{overflow:hidden}
+    .tl-hamburger span{
+      display:block;
+      width:20px;
+      height:2px;
+      border-radius:999px;
+      background:currentColor;
+      transition:transform .22s ease, opacity .22s ease;
     }
-    @media(max-width:380px){.mobile-menu-toggle{padding:10px 12px;font-size:13px}.brand-text{font-size:20px!important}}
+    body.tl-menu-open .tl-hamburger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    body.tl-menu-open .tl-hamburger span:nth-child(2){opacity:0}
+    body.tl-menu-open .tl-hamburger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+    .tl-menu-backdrop,.tl-mobile-panel{display:none}
+    @media(max-width:920px){
+      .tl-hamburger{display:inline-flex}
+      .mobile-menu{display:none!important}
+      .nav-main > .pill,.tl-nav > .tl-button,header.nav > .wrap > .pill{display:none!important}
+      .tl-menu-backdrop{
+        display:block;
+        position:fixed;
+        inset:0;
+        background:rgba(0,0,0,.34);
+        opacity:0;
+        pointer-events:none;
+        transition:opacity .22s ease;
+        z-index:80;
+      }
+      .tl-mobile-panel{
+        display:flex;
+        position:fixed;
+        left:14px;
+        right:14px;
+        top:76px;
+        z-index:90;
+        flex-direction:column;
+        gap:6px;
+        padding:18px;
+        border-radius:26px;
+        background:rgba(246,240,231,.98);
+        color:#171512;
+        border:1px solid rgba(23,21,18,.15);
+        box-shadow:0 28px 90px rgba(0,0,0,.24);
+        transform:translateY(-12px);
+        opacity:0;
+        pointer-events:none;
+        transition:opacity .22s ease, transform .22s ease;
+      }
+      .tl-mobile-panel a{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        min-height:46px;
+        padding:12px 14px;
+        border-radius:16px;
+        font:700 15px/1.2 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        text-decoration:none;
+        color:#171512;
+        border:1px solid rgba(23,21,18,.10);
+        background:rgba(255,255,255,.34);
+      }
+      .tl-mobile-panel a.tl-mobile-cta{
+        margin-top:8px;
+        justify-content:center;
+        background:#171512;
+        color:#eee6d9;
+        border-color:#171512;
+        min-height:50px;
+      }
+      .tl-mobile-panel a.tl-active{background:#e6dccd;border-color:rgba(23,21,18,.18)}
+      body.tl-menu-open .tl-menu-backdrop{opacity:1;pointer-events:auto}
+      body.tl-menu-open .tl-mobile-panel{opacity:1;transform:translateY(0);pointer-events:auto}
+      body.tl-menu-open{overflow:hidden}
+    }
+    @media(max-width:520px){.tl-mobile-panel{top:70px}}
 
   </style>
 </head>
@@ -99,22 +154,36 @@
   <header class="nav">
     <div class="wrap nav-main">
       <a class="brand" href="/" aria-label="Tarocchi Liquidi"><img src="/assets/logo-tl-v2.png" alt=""><span>Tarocchi Liquidi</span></a>
-      <nav class="menu" aria-label="Menu principale"><a href="/">Home</a><a href="/regalo-per-chi-ha-gia-tutto.html">Il Dono</a><a href="/primo-passo.html">Primo Passo</a><a class="active current" href="/spritz-tarocchi.html">Spritz &amp; Tarocchi</a><a href="/addio-al-nubilato-tarocchi-liquidi.html">Addio al Nubilato</a><a href="/#paolo">Paolo Musetti</a></nav>
+      <nav class="menu" aria-label="Menu principale">
+        <a href="/">Home</a>
+        <a href="/regalo-per-chi-ha-gia-tutto.html">Il Dono</a>
+        <a href="/primo-passo.html">Primo Passo</a>
+        <a class="active" href="/spritz-tarocchi.html">Spritz &amp; Tarocchi</a>
+        <a href="/#eventi">Eventi Privati</a>
+        <a href="/#paolo">Paolo Musetti</a>
+      </nav>
       <a class="pill" href="https://wa.me/393282924284?text=Ciao%20Paolo%2C%20vorrei%20organizzare%20uno%20Spritz%20%26%20Tarocchi." target="_blank" rel="noopener" onclick="trackWhatsApp('nav')">WhatsApp</a>
-    
-      <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu">☰ Menu</button>
+      <button class="tl-hamburger" type="button" aria-label="Apri il menu" aria-controls="tlMobileMenu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
-  
-    <nav id="mobileMenu" class="mobile-menu-panel" aria-label="Menu mobile">
+    <nav class="mobile-menu" aria-label="Menu mobile">
       <a href="/">Home</a>
       <a href="/regalo-per-chi-ha-gia-tutto.html">Il Dono</a>
       <a href="/primo-passo.html">Primo Passo</a>
-      <a class="active current" href="/spritz-tarocchi.html">Spritz &amp; Tarocchi</a>
-      <a href="/addio-al-nubilato-tarocchi-liquidi.html">Addio al Nubilato</a>
-      <a href="/#paolo">Paolo Musetti</a>
-      <a href="https://wa.me/393282924284?text=Ciao%20Paolo%2C%20vorrei%20informazioni%20su%20Tarocchi%20Liquidi." target="_blank" rel="noopener">WhatsApp</a>
+      <a class="active" href="/spritz-tarocchi.html">Spritz</a>
+      <a href="/#eventi">Eventi</a>
     </nav>
   </header>
+<div class="tl-menu-backdrop" aria-hidden="true"></div>
+<nav id="tlMobileMenu" class="tl-mobile-panel" aria-label="Menu mobile">
+<a href="/">Home</a>
+<a href="/regalo-per-chi-ha-gia-tutto.html">Il Dono</a>
+<a href="/primo-passo.html">Primo Passo</a>
+<a class="tl-active" href="/spritz-tarocchi.html">Spritz & Tarocchi</a>
+<a href="/addio-al-nubilato-tarocchi-liquidi.html">Addio al Nubilato</a>
+<a href="/#eventi">Eventi Privati</a>
+<a href="/#paolo">Paolo Musetti</a>
+<a class="tl-mobile-cta" href="https://wa.me/393282924284?text=Ciao%20Paolo%2C%20vorrei%20organizzare%20uno%20Spritz%20%26%20Tarocchi." target="_blank" rel="noopener">WhatsApp</a>
+</nav>
 
   <main>
     <section class="hero">
@@ -173,7 +242,7 @@
 
     <section class="section">
       <div class="wrap split-img">
-        <div class="rounded-img poster-img"><img src="/assets/spritz-tarocchi-locandina.jpg" alt="Locandina elegante per una serata Spritz e Tarocchi in bar o enoteca"></div>
+        <div class="rounded-img"><img src="/assets/spritz-tarocchi-hero.jpg" alt="Serata Spritz e Tarocchi in un bar elegante"></div>
         <div class="text">
           <p class="kicker dark">Per chi è pensato</p>
           <p class="big">Per wine bar, enoteche, cocktail bar, bistrot, librerie, circoli culturali, case private, rooftop e happening tra amici.</p>
@@ -252,30 +321,32 @@
 
 
   <script>
-    document.addEventListener('DOMContentLoaded', function(){
-      var btn = document.querySelector('.mobile-menu-toggle');
-      var panel = document.getElementById('mobileMenu');
-      if(!btn || !panel) return;
-      btn.addEventListener('click', function(){
-        var open = panel.classList.toggle('is-open');
-        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-        document.body.classList.toggle('menu-open', open);
-      });
-      panel.querySelectorAll('a').forEach(function(a){
-        a.addEventListener('click', function(){
-          panel.classList.remove('is-open');
-          btn.setAttribute('aria-expanded','false');
-          document.body.classList.remove('menu-open');
+    (function(){
+      if(window.__tlMobileMenuReady) return;
+      window.__tlMobileMenuReady = true;
+      function initMobileMenu(){
+        var button = document.querySelector('.tl-hamburger');
+        var panel = document.getElementById('tlMobileMenu');
+        var backdrop = document.querySelector('.tl-menu-backdrop');
+        if(!button || !panel || !backdrop) return;
+        function setOpen(open){
+          document.body.classList.toggle('tl-menu-open', open);
+          button.setAttribute('aria-expanded', open ? 'true' : 'false');
+        }
+        button.addEventListener('click', function(){
+          setOpen(!document.body.classList.contains('tl-menu-open'));
         });
-      });
-      document.addEventListener('click', function(e){
-        if(!panel.classList.contains('is-open')) return;
-        if(panel.contains(e.target) || btn.contains(e.target)) return;
-        panel.classList.remove('is-open');
-        btn.setAttribute('aria-expanded','false');
-        document.body.classList.remove('menu-open');
-      });
-    });
+        backdrop.addEventListener('click', function(){ setOpen(false); });
+        panel.querySelectorAll('a').forEach(function(link){
+          link.addEventListener('click', function(){ setOpen(false); });
+        });
+        document.addEventListener('keydown', function(event){
+          if(event.key === 'Escape') setOpen(false);
+        });
+      }
+      if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initMobileMenu);
+      else initMobileMenu();
+    })();
   </script>
 
 </body>
