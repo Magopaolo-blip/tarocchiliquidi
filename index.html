@@ -323,7 +323,19 @@
       .mobile-emotion img{width:100%;border-radius:28px;border:1px solid rgba(238,230,217,.18);box-shadow:0 26px 80px rgba(0,0,0,.32)}
     }
 
-</style>
+
+    /* V20 - Mobile: due soli bottoni affiancati nella hero */
+    @media(max-width:900px){
+      .hero p.hero-price{display:none!important}
+      .hero .cta{display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px!important;margin-top:20px!important}
+      .hero .cta .pill{width:auto!important;min-height:58px!important;padding:10px 10px!important;font-size:12.5px!important;line-height:1.15!important;text-align:center!important;white-space:normal!important;border-radius:999px!important}
+      .hero .cta .hero-primary{font-weight:800!important}
+      .hero .cta .hero-secondary{font-weight:800!important}
+    }
+    @media(max-width:380px){
+      .hero .cta .pill{font-size:11.5px!important;padding-left:7px!important;padding-right:7px!important}
+    }
+  </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -383,7 +395,7 @@
 <a class="tl-mobile-cta" href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20ricevere%20informazioni%20su%20Tarocchi%20Liquidi." target="_blank" rel="noopener">WhatsApp</a>
 </nav>
   <main>
-    <section id="top" class="hero"><div class="wrap"><img class="hero-logo" src="/assets/logo-tl-v2.png" alt=""><p class="kicker">Consulto Tarocchi · Roma e online</p><h1>Consulto Tarocchi.</h1><p class="hero-note"><strong>Se continui a pensarci, forse non è un dettaglio. <a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener">Chiamami.</a></strong></p><p class="hero-price">€40 · Roma o online</p><div class="cta"><a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener" class="pill light hero-primary">Prenota la lettura €40</a><a href="/regalo-per-chi-ha-gia-tutto.html" class="pill outline hero-secondary">Regala Il Dono</a></div></div></section>
+    <section id="top" class="hero"><div class="wrap"><img class="hero-logo" src="/assets/logo-tl-v2.png" alt=""><p class="kicker">Consulto Tarocchi · Roma e online</p><h1>Consulto Tarocchi.</h1><p class="hero-note"><strong>Se continui a pensarci, forse non è un dettaglio. <a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener">Chiamami.</a></strong></p><p class="hero-price">€40 · Roma o online</p><div class="cta"><a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener" class="pill light hero-primary">Prenota consulto a Roma o online €40</a><a href="/regalo-per-chi-ha-gia-tutto.html" class="pill outline hero-secondary">Regala il Dono</a></div></div></section>
     <section class="mobile-emotion" aria-label="Consulto Tarocchi: dubbio e sollievo">
       <div class="wrap"><img src="/assets/consulto-tarocchi-dubbio-sollievo.png" alt="Consulto Tarocchi a Roma e online: una persona in un momento di dubbio trova uno spazio di ascolto"></div>
     </section>
