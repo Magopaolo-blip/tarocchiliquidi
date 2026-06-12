@@ -308,6 +308,53 @@
       font-size: .92rem;
     }
 
+
+    .consulto-image-card {
+      position: relative;
+      min-height: 520px;
+      border: 1px solid var(--line);
+      border-radius: 36px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      background: #17100b;
+    }
+
+    .consulto-image-card img {
+      width: 100%;
+      height: 100%;
+      min-height: 520px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      filter: saturate(.96) contrast(1.04) brightness(.92);
+    }
+
+    .consulto-image-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,.04) 0%, rgba(0,0,0,.10) 48%, rgba(0,0,0,.62) 100%);
+      pointer-events: none;
+    }
+
+    .consulto-image-caption {
+      position: absolute;
+      left: 28px;
+      right: 28px;
+      bottom: 28px;
+      z-index: 2;
+      border: 1px solid rgba(230,201,130,.34);
+      border-radius: 24px;
+      background: rgba(18,13,9,.72);
+      backdrop-filter: blur(10px);
+      padding: 24px 26px;
+      color: var(--paper);
+      font-size: clamp(1.38rem, 2.1vw, 2.05rem);
+      line-height: 1.12;
+      letter-spacing: -.035em;
+      font-weight: 700;
+    }
+
     section { padding: 62px 0; }
 
     .section-head {
@@ -505,6 +552,10 @@
       .visual-card { padding: 22px; border-radius: 28px; min-height: 380px; }
       .quote-box { padding: 22px; }
       .mini-trace { transform: none; width: 100%; }
+
+      .consulto-image-card { min-height: 420px; border-radius: 28px; }
+      .consulto-image-card img { min-height: 420px; object-position: 42% center; }
+      .consulto-image-caption { left: 18px; right: 18px; bottom: 18px; padding: 20px; font-size: 1.42rem; }
     }
   
 
@@ -637,8 +688,8 @@
         <div>
           <div class="eyebrow">Consulto privato · Roma e online</div>
           <h1>Consulto Tarocchi</h1>
-          <h2>Se continui a pensarci, forse non è un dettaglio.</h2>
-          <p class="lead">A Roma oppure online: porti una domanda, una scelta o un momento da guardare meglio. <a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener">Chiamami.</a></p>
+          <h2><strong>Se continui a pensarci, forse non è un dettaglio.</strong></h2>
+          <p class="lead"><strong>A Roma oppure online: porti una domanda, una scelta o un momento da guardare meglio. <a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener">Chiamami.</a></strong></p>
           <div class="price-line">
             <div class="price">€40</div>
             <div class="note-pill">Roma oppure online</div>
@@ -649,16 +700,10 @@
           </div>
         </div>
 
-        <div class="visual-card" aria-label="Traccia Primo Passo">
-          <div class="quote-box">
-            <p>Fermarsi non significa restare immobili. A volte è il modo più lucido per ricominciare a vedere.</p>
-          </div>
-          <div class="mini-trace">
-            <div class="k">Traccia</div>
-            <strong>Una frase emersa.<br>Una domanda da custodire.</strong>
-            <span>Negli incontri in presenza ricevi anche una Traccia stampata.</span>
-          </div>
-        </div>
+        <figure class="consulto-image-card" aria-label="Consulto Tarocchi privato: una persona porta un dubbio e trova uno spazio di sollievo">
+          <img src="/assets/consulto-tarocchi-dubbio-sollievo.png" alt="Consulto Tarocchi privato: una persona riflette davanti alle carte in un momento di dubbio">
+          <figcaption class="consulto-image-caption">Quando dentro qualcosa insiste, ignorarlo non lo fa sparire. Chiamami.</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -666,12 +711,12 @@
       <div class="wrap split">
         <div class="section-head">
           <h2>Quando può essere utile.</h2>
-          <p>Quando dentro qualcosa insiste, ignorarlo non lo fa sparire. <a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener">Chiamami.</a></p>
+          <p><strong>Quando dentro qualcosa insiste, ignorarlo non lo fa sparire. <a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener">Chiamami.</a></strong></p>
         </div>
         <ul class="list">
           <li>Se una scelta ti blocca, non aspettare che passi: guardiamola meglio.</li>
-          <li>Quando una cosa ti resta addosso e non riesci a lasciarla lì.</li>
-          <li>Quando una domanda torna sempre e comincia a pesare.</li>
+          <li><strong>Quando una cosa ti resta addosso e non riesci a lasciarla lì.</strong></li>
+          <li><strong>Quando una domanda torna sempre e comincia a pesare.</strong></li>
           <li>Quando vuoi smettere di girarci intorno.</li>
         </ul>
       </div>
@@ -767,8 +812,8 @@
       <div class="wrap">
         <div class="soft-panel" style="text-align:center;max-width:860px;margin:0 auto">
           <div class="eyebrow" style="margin-bottom:12px">Consulto Tarocchi · €40</div>
-          <h2 style="font-weight:400;font-size:clamp(2.1rem,4vw,3.6rem);line-height:1.03;margin:0 0 14px">Se continui a pensarci, forse non è un dettaglio.</h2>
-          <p class="lead" style="margin-left:auto;margin-right:auto">Scrivimi su WhatsApp. Mi dici se preferisci online o in presenza a Roma, e troviamo insieme il momento più adatto. Chiamami.</p>
+          <h2 style="font-weight:700;font-size:clamp(2.1rem,4vw,3.6rem);line-height:1.03;margin:0 0 14px"><strong>Se continui a pensarci, forse non è un dettaglio.</strong></h2>
+          <p class="lead" style="margin-left:auto;margin-right:auto"><strong>Scrivimi su WhatsApp. Mi dici se preferisci online o in presenza a Roma, e troviamo insieme il momento più adatto. Chiamami.</strong></p>
           <div class="price-line" style="justify-content:center">
             <div class="price">€40</div>
             <div class="note-pill">circa 30 minuti</div>

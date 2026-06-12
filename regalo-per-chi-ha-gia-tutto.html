@@ -182,10 +182,12 @@
     }
 
     .tl-note {
-      font-family: Arial, sans-serif;
-      font-size: 13px;
-      color: var(--muted);
-      margin-top: 16px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(18px, 1.45vw, 21px);
+      line-height: 1.42;
+      letter-spacing: -.018em;
+      color: #5d5246;
+      margin-top: 22px;
       max-width: 560px;
     }
 
@@ -554,7 +556,7 @@
       .tl-lead{margin-top:18px}
       .tl-price-pill{margin-top:18px}
       .tl-hero-actions{margin-top:22px}
-      .tl-note{margin-top:14px}
+      .tl-note{margin-top:18px;font-size:18px;line-height:1.42}
       .tl-visual{min-height:340px;border-radius:26px}
       .tl-visual::before{inset:18px;border-radius:20px}
     }
@@ -699,6 +701,7 @@
       <div class="tl-container tl-nav">
         <a class="tl-brand" href="/"><img class="tl-brand-logo" src="/assets/logo-tl-v2.png" alt=""><span>Tarocchi Liquidi</span></a>
         <nav class="tl-navlinks" aria-label="Navigazione principale">
+          <a href="/">Home</a>
           <a href="#contenuto">Cosa contiene</a>
           <a href="#formule">Formule</a>
           <a href="#come-funziona">Come funziona</a>
@@ -736,7 +739,7 @@
             <a class="tl-button secondary" href="#formule">Vedi le formule</a>
           </div>
           <p class="tl-note">
-            Non è un oggetto qualunque. È un dono costruito attorno a un nome, a un momento e a una domanda che merita attenzione.
+            <strong>Non è un regalo qualsiasi. È un modo elegante per dire: ho pensato davvero a te.</strong>
           </p>
         </div>
 
