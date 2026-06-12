@@ -303,7 +303,27 @@
       .strip{display:none}
     }
 
-  </style>
+  
+
+    /* REV Mobile snello: problema -> prezzo -> contatto, immagine emozionale protagonista */
+    .mobile-emotion{display:none}
+    @media(max-width:900px){
+      .hero{min-height:auto;padding-top:68px}
+      .hero:before{background-image:linear-gradient(180deg,rgba(0,0,0,.84) 0%,rgba(0,0,0,.74) 48%,rgba(0,0,0,.56) 100%),url('assets/hero_wide_clean.jpg');background-position:center right;}
+      .hero .wrap{padding-top:34px!important;padding-bottom:28px!important}
+      .hero .kicker{font-size:10px;letter-spacing:.28em;margin-bottom:18px}
+      .hero h1{font-size:48px!important;line-height:.96!important;max-width:340px}
+      .hero p.sub,.hero .meta{display:none!important}
+      .hero p.hero-note{font-size:22px!important;line-height:1.2!important;margin-top:22px!important;max-width:340px}
+      .hero p.hero-price{font-size:18px!important;margin-top:20px!important;padding:9px 15px!important;background:rgba(238,230,217,.18)}
+      .hero .cta{margin-top:18px!important;gap:10px}
+      .hero .cta .pill{min-height:48px!important;width:100%;font-size:15px!important}
+      .mobile-emotion{display:block;background:#171512;padding:0 0 34px;border-bottom:1px solid rgba(238,230,217,.12)}
+      .mobile-emotion .wrap{padding:0 18px}
+      .mobile-emotion img{width:100%;border-radius:28px;border:1px solid rgba(238,230,217,.18);box-shadow:0 26px 80px rgba(0,0,0,.32)}
+    }
+
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -363,7 +383,10 @@
 <a class="tl-mobile-cta" href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20ricevere%20informazioni%20su%20Tarocchi%20Liquidi." target="_blank" rel="noopener">WhatsApp</a>
 </nav>
   <main>
-    <section id="top" class="hero"><div class="wrap"><img class="hero-logo" src="/assets/logo-tl-v2.png" alt=""><p class="kicker">Lettura privata dei Tarocchi</p><h1>Consulto Tarocchi.</h1><p class="sub">Una lettura privata a Roma o online per fare chiarezza su una domanda, una scelta o un momento che stai attraversando.</p><p class="hero-price">Lettura privata · Roma o online · €40</p><div class="cta"><a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener" class="pill light hero-primary">Prenota la lettura €40</a><a href="/regalo-per-chi-ha-gia-tutto.html" class="pill outline hero-secondary">Regala Il Dono</a></div><p class="hero-note"><strong>Se continui a pensarci, forse non è un dettaglio. <a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener">Chiamami.</a></strong></p><p class="meta">Consulto Tarocchi · Il Dono personalizzato · Eventi su richiesta</p></div></section>
+    <section id="top" class="hero"><div class="wrap"><img class="hero-logo" src="/assets/logo-tl-v2.png" alt=""><p class="kicker">Consulto Tarocchi · Roma e online</p><h1>Consulto Tarocchi.</h1><p class="hero-note"><strong>Se continui a pensarci, forse non è un dettaglio. <a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener">Chiamami.</a></strong></p><p class="hero-price">€40 · Roma o online</p><div class="cta"><a href="https://wa.me/393282924284?text=Ciao%20Paolo,%20vorrei%20prenotare%20un%20consulto%20con%20i%20Tarocchi%20a%20€40." target="_blank" rel="noopener" class="pill light hero-primary">Prenota la lettura €40</a><a href="/regalo-per-chi-ha-gia-tutto.html" class="pill outline hero-secondary">Regala Il Dono</a></div></div></section>
+    <section class="mobile-emotion" aria-label="Consulto Tarocchi: dubbio e sollievo">
+      <div class="wrap"><img src="/assets/consulto-tarocchi-dubbio-sollievo.png" alt="Consulto Tarocchi a Roma e online: una persona in un momento di dubbio trova uno spazio di ascolto"></div>
+    </section>
     <section class="quick-choice" aria-label="Scelta rapida Tarocchi Liquidi">
       <div class="wrap">
         <div class="quick-head">
