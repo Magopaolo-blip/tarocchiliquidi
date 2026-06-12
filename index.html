@@ -449,7 +449,7 @@
       <div class="wrap box-detail-grid">
         <div class="box-detail-media">
           <div class="big-photo video-photo">
-            <video class="unboxing-video" autoplay muted loop playsinline preload="metadata" poster="assets/box-open.png" aria-label="Video unboxing del Dono Tarocchi Liquidi">
+            <video id="unboxingVideo" class="unboxing-video" autoplay muted loop playsinline preload="auto" disablepictureinpicture controlslist="nodownload noplaybackrate" aria-label="Video unboxing del Dono Tarocchi Liquidi">
               <source src="assets/unboxing-tarocchi-liquidi.mp4" type="video/mp4">
               <img src="assets/box-open.png" alt="Il Dono Tarocchi Liquidi aperto con boccetta, Arcano e cartoncini personalizzati">
             </video>
@@ -554,7 +554,20 @@
     document.addEventListener('DOMContentLoaded', function(){
       var video = document.getElementById('unboxingVideo');
       if(video){
+        video.muted = true;
+        video.setAttribute('muted','');
+        video.setAttribute('playsinline','');
+        video.play().catch(function(){});
+        video.addEventListener('loadeddata', function(){ video.play().catch(function(){}); });
+        video.addEventListener('canplay', function(){ video.play().catch(function(){}); }, { once:true });
         video.addEventListener('click', enableUnboxingAudio);
+      }
+    });
+    document.addEventListener('visibilitychange', function(){
+      var video = document.getElementById('unboxingVideo');
+      if(video && !document.hidden){
+        video.muted = true;
+        video.play().catch(function(){});
       }
     });
   </script>
