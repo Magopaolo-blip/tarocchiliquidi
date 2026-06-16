@@ -130,7 +130,23 @@
     }
     @media(max-width:520px){.tl-mobile-panel{top:70px}}
 
-  </style>
+  
+
+    /* TL optimization 2026-06-16: spazi e CTA mobile */
+    .hero{min-height:680px!important}
+    .section{padding-top:62px!important;padding-bottom:62px!important}
+    .final{padding-top:62px!important;padding-bottom:68px!important}
+    @media(max-width:920px){
+      .hero .wrap{padding-top:48px!important;padding-bottom:48px!important}
+      .hero h1{font-size:44px!important}
+      .section{padding-top:42px!important;padding-bottom:42px!important}
+      .final{padding-top:50px!important;padding-bottom:56px!important}
+      .cta{display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px!important}
+      .cta .pill{width:100%;min-height:50px;padding:12px 10px!important;font-size:13px;line-height:1.12;text-align:center}
+    }
+    @media(max-width:380px){.cta{grid-template-columns:1fr!important}.cta .pill{font-size:14px}}
+
+</style>
 
   <script type="application/ld+json">
   {
@@ -164,7 +180,7 @@
 <body>
   <header class="nav">
     <div class="wrap nav-main">
-      <a class="brand" href="/" aria-label="Tarocchi Liquidi"><img src="/assets/logo-tl-v2.png" alt=""><span>Tarocchi Liquidi</span></a>
+      <a class="brand" href="/" aria-label="Tarocchi Liquidi"><img loading="lazy" decoding="async" src="/assets/logo-tl-v2.png" alt=""><span>Tarocchi Liquidi</span></a>
       <nav class="menu" aria-label="Menu principale">
         <a href="/">Home</a>
         <a href="/regalo-per-chi-ha-gia-tutto.html">Il Dono</a>
@@ -212,7 +228,7 @@
 
     <section id="regalo" class="section gift">
       <div class="wrap gift-grid">
-        <div class="rounded-img"><img src="/assets/addio-nubilato-dono-sposa.jpg" alt="Futura sposa che riceve il Tarocco Liquido durante un addio al nubilato"></div>
+        <div class="rounded-img"><img loading="lazy" decoding="async" src="/assets/addio-nubilato-dono-sposa.jpg" alt="Futura sposa che riceve il Tarocco Liquido durante un addio al nubilato"></div>
         <div class="gift-copy">
           <p class="kicker dark">Il regalo delle amiche</p>
           <h2>Fatele un regalo che parli davvero di lei.</h2>
