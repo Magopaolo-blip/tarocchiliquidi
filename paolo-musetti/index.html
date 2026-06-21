@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Paolo Musetti | Performer, autore e Tarocchi Liquidi</title>
-<meta name="description" content="Paolo Musetti è performer professionista, autore di Tarot e Guarda la Carta, e ideatore di Tarocchi Liquidi e Tarocchi Social Club. Esperienze, eventi e consulti a Roma e in Italia.">
+<meta name="description" content="Paolo Musetti è performer professionista, autore di Tarot e Guarda la Carta, ideatore di Tarocchi Liquidi e Tarocchi Social Club. Esperienze, eventi e consulti a Roma e in Italia.">
 <link rel="canonical" href="https://www.tarocchiliquidi.it/paolo-musetti.html">
 <meta property="og:locale" content="it_IT">
 <meta property="og:title" content="Paolo Musetti | Tarocchi Liquidi">
@@ -78,30 +78,15 @@
 @media(max-width:900px){.author-book-visual{padding:18px;border-radius:26px}.author-book-visual img{max-height:680px;object-fit:contain}}
 
 
-
-/* V14 - Ottimizzazione titoli: meno “cicciotti”, più editoriali */
-.hero h1,.page-hero h1,.author-hero h1,.section-head h2,.final-cta h2,.panel h3,.hero-card h2,.card h3,.book-title,h1,h2,h3{
-  font-weight:500 !important;
-  letter-spacing:-.035em;
-}
-.hero h1,.page-hero h1,.author-hero h1{
-  line-height:.94;
-  letter-spacing:-.045em;
-}
-.section-head h2,.final-cta h2{
-  line-height:1;
-  letter-spacing:-.04em;
-}
-.card h3,.panel h3,.hero-card h2{
-  letter-spacing:-.025em;
-}
-.book-title{
-  letter-spacing:.015em;
-}
-@media(max-width:480px){
-  .hero h1,.page-hero h1,.author-hero h1{font-size:42px;line-height:.98}
-  .section-head h2,.final-cta h2{font-size:36px;line-height:1.02}
-}
+.books-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+.book-panel{border:1px solid var(--line);border-radius:34px;background:#171512;color:var(--cream);padding:28px;box-shadow:0 24px 80px rgba(0,0,0,.14);display:grid;grid-template-columns:.72fr 1fr;gap:28px;align-items:center}
+.book-panel img{width:100%;border-radius:14px;box-shadow:0 22px 70px rgba(0,0,0,.32);background:#f7f1e7}
+.book-panel h3{font-family:Georgia,serif;font-size:clamp(32px,4vw,58px);line-height:1;letter-spacing:-.04em;margin:0 0 12px;font-weight:500}
+.book-panel p{color:#d6c9ba;font-size:18px;line-height:1.55;margin:0 0 14px}
+.book-panel .book-kicker{font-size:12px;text-transform:uppercase;letter-spacing:.24em;color:var(--gold);margin:0 0 12px;font-weight:700}
+.book-panel .book-subtitle{font-family:Georgia,serif;font-size:22px;line-height:1.24;color:#ead8b9;margin:0 0 16px}
+@media(max-width:1050px){.books-grid{grid-template-columns:1fr}.book-panel{grid-template-columns:.45fr 1fr}}
+@media(max-width:700px){.book-panel{grid-template-columns:1fr}.book-panel img{max-width:330px;margin:0 auto}.book-panel h3{font-size:38px}}
 
 </style>
 <!-- Google tag (gtag.js) -->
@@ -132,7 +117,7 @@
   "knowsAbout":["Tarocchi di Marsiglia","eventi privati","intrattenimento culturale","comunicazione dal vivo"],
   "worksFor":{"@type":"Organization","name":"Tarocchi Liquidi","url":"https://www.tarocchiliquidi.it/"},
   "subjectOf":[
-    {"@type":"Book","name":"Tarot","url":"https://www.amazon.it/dp/B0H6354LLS","description":"Libro di Paolo Musetti dedicato ai Tarocchi."},
+    {"@type":"Book","name":"Tarot","url":"https://www.amazon.it/dp/B0H6354LLS","image":"https://www.tarocchiliquidi.it/assets/tarot-copertina.jpg","description":"Il Metodo Arianna per la lettura del Tarot."},
     {"@type":"Book","name":"Guarda la Carta","image":"https://www.tarocchiliquidi.it/assets/guarda-la-carta-copertina.jpg","description":"Un metodo facile per tutti per leggere i Tarocchi senza imparare significati a memoria."}
   ]
 }
@@ -159,7 +144,7 @@
   </div>
 </section>
 
-<section class="bar"><div class="wrap"><span>45 anni di esperienza dal vivo</span><span>Spettacolo e comunicazione</span><span>Autore di Tarot e Guarda la Carta</span><span>Ideatore di Tarocchi Liquidi</span></div></section>
+<section class="bar"><div class="wrap"><span>45 anni di esperienza dal vivo</span><span>Spettacolo e comunicazione</span><span>Autore di Guarda la Carta</span><span>Ideatore di Tarocchi Liquidi</span></div></section>
 
 <section class="section soft">
   <div class="wrap feature">
@@ -213,27 +198,29 @@
     <div class="section-head">
       <p class="kicker dark">Libri</p>
       <h2>I miei libri sui Tarocchi.</h2>
-      <p>La scrittura è il modo in cui raccolgo e rendo trasmissibile il lavoro nato dal palco, dall’osservazione e dai consulti.</p>
+      <p>Due percorsi editoriali complementari: uno dedicato al Metodo Arianna e uno al metodo Occhi di Bambino.</p>
     </div>
-    <div class="grid two">
-      <div class="card" style="min-height:auto">
-        <div class="author-book-visual" style="margin-bottom:22px">
-          <img src="/assets/guarda-la-carta-copertina.jpg" alt="Copertina del libro Guarda la Carta di Paolo Musetti" loading="lazy" decoding="async">
+    <div class="books-grid">
+      <article class="book-panel">
+        <img src="/assets/tarot-copertina.jpg" alt="Copertina del libro Tarot di Paolo Musetti" loading="lazy" decoding="async">
+        <div>
+          <p class="book-kicker">Disponibile su Amazon</p>
+          <h3>Tarot</h3>
+          <p class="book-subtitle">Il Metodo Arianna per la lettura del Tarot.</p>
+          <p>Un testo sul processo con cui il significato prende forma: dalla Chiave del Campo al Sigillo della Traccia.</p>
+          <div class="cta"><a class="pill light" href="https://www.amazon.it/dp/B0H6354LLS" target="_blank" rel="noopener">Scopri Tarot su Amazon</a></div>
         </div>
-        <p class="book-kicker">In uscita</p>
-        <h3 class="book-title">Guarda la Carta</h3>
-        <p class="book-subtitle">Un metodo facile per tutti.</p>
-        <p class="book-note">Il metodo <em>Occhi di Bambino</em> per leggere i Tarocchi senza imparare significati a memoria.</p>
-        <p>Non è un manuale di frasi già pronte. È un invito a guardare davvero la carta, con attenzione, curiosità e presenza.</p>
-      </div>
-      <div class="card" style="min-height:auto">
-        <p class="book-kicker">Disponibile su Amazon</p>
-        <h3 class="book-title">Tarot</h3>
-        <p class="book-subtitle">Un libro di Paolo Musetti sui Tarocchi.</p>
-        <p>Un percorso editoriale dedicato ai Tarocchi, pensato per chi vuole avvicinarsi alle carte con curiosità, ordine e profondità, senza cadere nella cartomanzia commerciale.</p>
-        <p>Questo libro completa il percorso pubblico di Tarocchi Liquidi: studio, esperienza dal vivo, consulti e divulgazione.</p>
-        <div class="cta"><a class="pill light" href="https://www.amazon.it/dp/B0H6354LLS/ref=sr_1_1?crid=1I8BKIHS00T0W&dib=eyJ2IjoiMSJ9.jUW54HIl0G1bksR9FMFPBw.m9--R1mN3rxkpejSxhWrWym7jiC1CiIdxKXRkDYZ12A&dib_tag=se&keywords=abozzi+tarot&qid=1782064955&sprefix=%2Caps%2C339&sr=8-1" target="_blank" rel="noopener">Scopri Tarot su Amazon</a></div>
-      </div>
+      </article>
+      <article class="book-panel">
+        <img src="/assets/guarda-la-carta-copertina.jpg" alt="Copertina del libro Guarda la Carta di Paolo Musetti" loading="lazy" decoding="async">
+        <div>
+          <p class="book-kicker">In uscita</p>
+          <h3>Guarda la Carta</h3>
+          <p class="book-subtitle">Un metodo facile per tutti.</p>
+          <p>Il metodo <em>Occhi di Bambino</em> per leggere i Tarocchi senza imparare significati a memoria: osservare prima di interpretare.</p>
+          <div class="cta"><a class="pill light" href="https://www.amazon.it/dp/B0H6354LLS" target="_blank" rel="noopener">Pagina Amazon</a></div>
+        </div>
+      </article>
     </div>
   </div>
 </section>
