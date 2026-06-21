@@ -18,3 +18,11 @@ Le frasi nella sezione “Dicono dell’esperienza” sono testi modello. Se non
 
 Caricamento:
 Carica tutti i file e la cartella assets nella root del sito tarocchiliquidi.it, senza cancellare eventuali asset già presenti sul server.
+
+
+AGGIORNAMENTO VISIVO
+- Eliminato il termine “morta” dalla homepage.
+- Aggiunte nuove immagini ottimizzate in /assets/.
+- Aggiunto logo TL in /assets/logo-tl-v2.png.
+- Aggiunto video web compresso /assets/party-tarocchi-social-club.mp4.
+- Inserite immagini nella homepage e nelle landing snelle.
