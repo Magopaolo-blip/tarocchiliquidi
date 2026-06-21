@@ -30,3 +30,6 @@ AGGIORNAMENTO VISIVO
 NOTA VIDEO DONO: nel pacchetto ricevuto non era presente il file video del Dono/Unboxing. Per inserirlo nel sito serve caricare un MP4 o WEBM, idealmente in formato web compresso.
 
 AGGIORNAMENTO V4: il video Party.mp4 è stato usato come video principale nella pagina Addio al nubilato, con autoplay silenzioso e poster dedicato.
+
+
+V11: aggiunta pagina paolo-musetti.html, immagine autore in assets, link nel menu, sezione Paolo in homepage e sitemap aggiornata.
