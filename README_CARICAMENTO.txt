@@ -1,17 +1,14 @@
-PACCHETTO TAROCCHI LIQUIDI v13 - CONTROLLO PAGINA PAOLO MUSETTI
+SITO TAROCCHI LIQUIDI - V14
 
-Caricare nella root del sito TUTTI i file e la cartella assets.
-Non caricare la cartella esterna: caricare il contenuto.
+Aggiornamenti inclusi:
+- titoli alleggeriti su tutto il sito: effetto meno “cicciotto”, più editoriale e premium;
+- pagina Paolo Musetti aggiornata con sezione “I miei libri”;
+- aggiunto libro Tarot con link Amazon fornito;
+- Guarda la Carta indicato come libro in uscita;
+- menu desktop e mobile già presenti con link Paolo Musetti;
+- sitemap aggiornata con /paolo-musetti.html e /paolo-musetti/.
 
-La pagina Paolo Musetti è disponibile in due modalità:
-1) /paolo-musetti.html
-2) /paolo-musetti/
-
-Nel menù desktop e mobile è presente il link a /paolo-musetti.html.
-La sitemap contiene /paolo-musetti.html.
-
-Dopo upload controllare:
-https://www.tarocchiliquidi.it/paolo-musetti.html
-https://www.tarocchiliquidi.it/paolo-musetti/
-
-Se non si apre, il file non è stato caricato nella root oppure il deploy non è ancora completato.
+Caricamento:
+1. carica il contenuto dello ZIP nella root GitHub, non la cartella esterna;
+2. verifica /paolo-musetti.html e /paolo-musetti/;
+3. richiedi indicizzazione in Google Search Console.

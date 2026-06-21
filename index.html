@@ -50,6 +50,32 @@
 }
 @media(max-width:480px){.mobile-menu{right:18px;top:60px}.media-card img,.media-card.featured img{aspect-ratio:4/3}}
 
+
+
+/* V14 - Ottimizzazione titoli: meno “cicciotti”, più editoriali */
+.hero h1,.page-hero h1,.author-hero h1,.section-head h2,.final-cta h2,.panel h3,.hero-card h2,.card h3,.book-title,h1,h2,h3{
+  font-weight:500 !important;
+  letter-spacing:-.035em;
+}
+.hero h1,.page-hero h1,.author-hero h1{
+  line-height:.94;
+  letter-spacing:-.045em;
+}
+.section-head h2,.final-cta h2{
+  line-height:1;
+  letter-spacing:-.04em;
+}
+.card h3,.panel h3,.hero-card h2{
+  letter-spacing:-.025em;
+}
+.book-title{
+  letter-spacing:.015em;
+}
+@media(max-width:480px){
+  .hero h1,.page-hero h1,.author-hero h1{font-size:42px;line-height:.98}
+  .section-head h2,.final-cta h2{font-size:36px;line-height:1.02}
+}
+
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCVFMP5C15"></script>
