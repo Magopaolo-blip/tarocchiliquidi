@@ -1,35 +1,17 @@
-SITO TAROCCHI LIQUIDI - AGGIORNAMENTO TAROCCHI SOCIAL CLUB
+PACCHETTO TAROCCHI LIQUIDI v13 - CONTROLLO PAGINA PAOLO MUSETTI
 
-Cosa è stato aggiornato:
-- Homepage trasformata in landing lunga centrata su Tarocchi Social Club.
-- Il Dono Tarocchi Liquidi mantenuto come secondo pilastro commerciale.
-- Consulto privato spostato a offerta secondaria.
-- Inserite sezioni per addio al nubilato, feste private, matrimoni, genitori durante feste per bambini, locali e wine bar.
-- Inserite FAQ SEO con uso controllato del termine cartomante.
-- Alleggerito il linguaggio troppo tecnico e astratto.
-- Aggiunte nuove pagine SEO snelle:
-  tarocchi-feste-private-roma.html
-  tarocchi-matrimonio-roma.html
-  intrattenimento-genitori-feste-bambini-roma.html
-- Aggiornata sitemap.xml.
+Caricare nella root del sito TUTTI i file e la cartella assets.
+Non caricare la cartella esterna: caricare il contenuto.
 
-Nota importante:
-Le frasi nella sezione “Dicono dell’esperienza” sono testi modello. Se non corrispondono a recensioni reali già raccolte, vanno sostituite appena possibile con testimonianze autentiche approvate dai clienti.
+La pagina Paolo Musetti è disponibile in due modalità:
+1) /paolo-musetti.html
+2) /paolo-musetti/
 
-Caricamento:
-Carica tutti i file e la cartella assets nella root del sito tarocchiliquidi.it, senza cancellare eventuali asset già presenti sul server.
+Nel menù desktop e mobile è presente il link a /paolo-musetti.html.
+La sitemap contiene /paolo-musetti.html.
 
+Dopo upload controllare:
+https://www.tarocchiliquidi.it/paolo-musetti.html
+https://www.tarocchiliquidi.it/paolo-musetti/
 
-AGGIORNAMENTO VISIVO
-- Eliminato il termine “morta” dalla homepage.
-- Aggiunte nuove immagini ottimizzate in /assets/.
-- Aggiunto logo TL in /assets/logo-tl-v2.png.
-- Aggiunto video web compresso /assets/party-tarocchi-social-club.mp4.
-- Inserite immagini nella homepage e nelle landing snelle.
-
-NOTA VIDEO DONO: nel pacchetto ricevuto non era presente il file video del Dono/Unboxing. Per inserirlo nel sito serve caricare un MP4 o WEBM, idealmente in formato web compresso.
-
-AGGIORNAMENTO V4: il video Party.mp4 è stato usato come video principale nella pagina Addio al nubilato, con autoplay silenzioso e poster dedicato.
-
-
-V11: aggiunta pagina paolo-musetti.html, immagine autore in assets, link nel menu, sezione Paolo in homepage e sitemap aggiornata.
+Se non si apre, il file non è stato caricato nella root oppure il deploy non è ancora completato.
