@@ -26,3 +26,7 @@ AGGIORNAMENTO VISIVO
 - Aggiunto logo TL in /assets/logo-tl-v2.png.
 - Aggiunto video web compresso /assets/party-tarocchi-social-club.mp4.
 - Inserite immagini nella homepage e nelle landing snelle.
+
+NOTA VIDEO DONO: nel pacchetto ricevuto non era presente il file video del Dono/Unboxing. Per inserirlo nel sito serve caricare un MP4 o WEBM, idealmente in formato web compresso.
+
+AGGIORNAMENTO V4: il video Party.mp4 è stato usato come video principale nella pagina Addio al nubilato, con autoplay silenzioso e poster dedicato.
