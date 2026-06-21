@@ -12,3 +12,9 @@ Caricamento:
 1. carica il contenuto dello ZIP nella root GitHub, non la cartella esterna;
 2. verifica /paolo-musetti.html e /paolo-musetti/;
 3. richiedi indicizzazione in Google Search Console.
+
+
+VERSIONE V15
+- Aggiunta copertina Tarot in assets/tarot-copertina.jpg
+- Aggiornata pagina Paolo Musetti con sezione I miei libri: Tarot + Guarda la Carta
+- Aggiornate versioni /paolo-musetti.html e /paolo-musetti/
