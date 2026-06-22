@@ -1,21 +1,17 @@
-VERSIONE v17 - Home autore e conversione
+VERSIONE v21 - Landing Regalo Matrimonio Originale
 
-Carica TUTTO il contenuto di questa cartella nella root del repository GitHub.
+Carica tutto il contenuto nella root del repository GitHub.
 
-File principali aggiornati:
-- index.html
-- paolo-musetti/index.html
-- paolo-musetti.html redirect senza noindex
-- sitemap.xml
-- consulto-tarocchi-roma.html
+Nuovo file:
+- regalo-matrimonio-originale.html
+
+Aggiornati:
+- index.html con link alla nuova pagina e testo Feste private e compleanni
+- sitemap.xml con la nuova URL
 
 Dopo il caricamento controlla:
-https://www.tarocchiliquidi.it/
-https://www.tarocchiliquidi.it/paolo-musetti/
-https://www.tarocchiliquidi.it/consulto-tarocchi-roma.html
+https://www.tarocchiliquidi.it/regalo-matrimonio-originale.html
 https://www.tarocchiliquidi.it/sitemap.xml
 
-In Search Console, quando la quota torna disponibile, richiedi indicizzazione per:
-- /paolo-musetti/
-- /consulto-tarocchi-roma.html
-- /tarocchi-feste-private-roma.html
+Poi in Search Console richiedi indicizzazione per:
+https://www.tarocchiliquidi.it/regalo-matrimonio-originale.html
