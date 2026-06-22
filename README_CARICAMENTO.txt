@@ -1,21 +1,21 @@
-VERSIONE v22 - Regalo matrimonio + Ads ready
+VERSIONE v17 - Home autore e conversione
 
 Carica TUTTO il contenuto di questa cartella nella root del repository GitHub.
 
-Aggiornamenti:
-- nuova landing regalo-matrimonio-originale.html
-- home aggiornata con "Feste private e compleanni"
-- link interni alla nuova landing da home e addio al nubilato
-- sitemap.xml aggiornata
-- robots.txt incluso
+File principali aggiornati:
+- index.html
+- paolo-musetti/index.html
+- paolo-musetti.html redirect senza noindex
+- sitemap.xml
+- consulto-tarocchi-roma.html
 
 Dopo il caricamento controlla:
-https://www.tarocchiliquidi.it/regalo-matrimonio-originale.html
-https://www.tarocchiliquidi.it/addio-al-nubilato-tarocchi-liquidi.html
 https://www.tarocchiliquidi.it/
+https://www.tarocchiliquidi.it/paolo-musetti/
+https://www.tarocchiliquidi.it/consulto-tarocchi-roma.html
 https://www.tarocchiliquidi.it/sitemap.xml
 
-In Search Console richiedi indicizzazione per:
-- /regalo-matrimonio-originale.html
-- /addio-al-nubilato-tarocchi-liquidi.html
+In Search Console, quando la quota torna disponibile, richiedi indicizzazione per:
+- /paolo-musetti/
+- /consulto-tarocchi-roma.html
 - /tarocchi-feste-private-roma.html
