@@ -1,19 +1,21 @@
-CARICAMENTO GITHUB — VERSIONE v16 ELEGANTE
+VERSIONE v17 - Home autore e conversione
 
-Carica il CONTENUTO di questa cartella nella root del repository, sostituendo i file esistenti.
+Carica TUTTO il contenuto di questa cartella nella root del repository GitHub.
 
-File nuovi/importanti:
-- consulto-tarocchi-roma.html  (nuova landing SEO commerciale)
-- paolo-musetti/index.html     (pagina autore canonica)
-- paolo-musetti.html           (redirect di sicurezza)
-- primo-passo.html             (redirect verso consulto-tarocchi-roma.html)
-- sitemap.xml                  (aggiornata)
+File principali aggiornati:
+- index.html
+- paolo-musetti/index.html
+- paolo-musetti.html redirect
+- sitemap.xml
+- consulto-tarocchi-roma.html
 
-Dopo il caricamento:
-1. apri https://www.tarocchiliquidi.it/sitemap.xml
-2. controlla che ci siano /paolo-musetti/ e /consulto-tarocchi-roma.html
-3. Search Console → Sitemap → invia sitemap.xml
-4. Controllo URL → richiedi indicizzazione per:
-   - https://www.tarocchiliquidi.it/consulto-tarocchi-roma.html
-   - https://www.tarocchiliquidi.it/paolo-musetti/
-   - https://www.tarocchiliquidi.it/tarocchi-feste-private-roma.html
+Dopo il caricamento controlla:
+https://www.tarocchiliquidi.it/
+https://www.tarocchiliquidi.it/paolo-musetti/
+https://www.tarocchiliquidi.it/consulto-tarocchi-roma.html
+https://www.tarocchiliquidi.it/sitemap.xml
+
+In Search Console, quando la quota torna disponibile, richiedi indicizzazione per:
+- /paolo-musetti/
+- /consulto-tarocchi-roma.html
+- /tarocchi-feste-private-roma.html
