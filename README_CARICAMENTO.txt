@@ -5,7 +5,7 @@ Carica TUTTO il contenuto di questa cartella nella root del repository GitHub.
 File principali aggiornati:
 - index.html
 - paolo-musetti/index.html
-- paolo-musetti.html redirect
+- paolo-musetti.html redirect senza noindex
 - sitemap.xml
 - consulto-tarocchi-roma.html
 
