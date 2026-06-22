@@ -1,20 +1,19 @@
-SITO TAROCCHI LIQUIDI - V14
+CARICAMENTO GITHUB — VERSIONE v16 ELEGANTE
 
-Aggiornamenti inclusi:
-- titoli alleggeriti su tutto il sito: effetto meno “cicciotto”, più editoriale e premium;
-- pagina Paolo Musetti aggiornata con sezione “I miei libri”;
-- aggiunto libro Tarot con link Amazon fornito;
-- Guarda la Carta indicato come libro in uscita;
-- menu desktop e mobile già presenti con link Paolo Musetti;
-- sitemap aggiornata con /paolo-musetti.html e /paolo-musetti/.
+Carica il CONTENUTO di questa cartella nella root del repository, sostituendo i file esistenti.
 
-Caricamento:
-1. carica il contenuto dello ZIP nella root GitHub, non la cartella esterna;
-2. verifica /paolo-musetti.html e /paolo-musetti/;
-3. richiedi indicizzazione in Google Search Console.
+File nuovi/importanti:
+- consulto-tarocchi-roma.html  (nuova landing SEO commerciale)
+- paolo-musetti/index.html     (pagina autore canonica)
+- paolo-musetti.html           (redirect di sicurezza)
+- primo-passo.html             (redirect verso consulto-tarocchi-roma.html)
+- sitemap.xml                  (aggiornata)
 
-
-VERSIONE V15
-- Aggiunta copertina Tarot in assets/tarot-copertina.jpg
-- Aggiornata pagina Paolo Musetti con sezione I miei libri: Tarot + Guarda la Carta
-- Aggiornate versioni /paolo-musetti.html e /paolo-musetti/
+Dopo il caricamento:
+1. apri https://www.tarocchiliquidi.it/sitemap.xml
+2. controlla che ci siano /paolo-musetti/ e /consulto-tarocchi-roma.html
+3. Search Console → Sitemap → invia sitemap.xml
+4. Controllo URL → richiedi indicizzazione per:
+   - https://www.tarocchiliquidi.it/consulto-tarocchi-roma.html
+   - https://www.tarocchiliquidi.it/paolo-musetti/
+   - https://www.tarocchiliquidi.it/tarocchi-feste-private-roma.html
