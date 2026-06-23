@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C'è una domanda che continua a tornare? | Archivio delle Domande</title>
+  <meta name="description" content="Domande reali, Tracce e nuove prospettive. Scopri l'Archivio delle Domande o invia la tua domanda in forma riservata." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.tarocchiliquidi.it/domande.html" />
+
+  <meta property="og:title" content="C'è una domanda che continua a tornare?" />
+  <meta property="og:description" content="L'Archivio delle Domande raccoglie domande reali e offre una Traccia: non una risposta, ma una nuova prospettiva." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.tarocchiliquidi.it/domande.html" />
+
+  <style>
+    :root {
+      --bg: #f7f1e8;
+      --paper: #fffaf2;
+      --ink: #1f1b16;
+      --muted: #6f6255;
+      --line: #e4d6c4;
+      --accent: #9b6a2f;
+      --accent-dark: #6f461c;
+      --soft: #efe4d4;
+      --shadow: 0 18px 60px rgba(48, 35, 22, 0.10);
+      --radius: 26px;
+      --max: 1080px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--ink);
+      background: radial-gradient(circle at top left, #fff7ea 0%, var(--bg) 42%, #f3eadc 100%);
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
+
+    header {
+      padding: 22px 0;
+      border-bottom: 1px solid rgba(155,106,47,.16);
+      background: rgba(247,241,232,.86);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .brand { font-size: 18px; letter-spacing: .06em; text-transform: uppercase; text-decoration: none; }
+    .navlinks { display: flex; gap: 20px; align-items: center; font-family: Arial, sans-serif; font-size: 14px; color: var(--muted); }
+    .navlinks a { text-decoration: none; }
+    .navlinks a:hover { color: var(--accent-dark); }
+
+    .hero { padding: 92px 0 76px; text-align: center; }
+    .eyebrow { font-family: Arial, sans-serif; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--accent-dark); margin-bottom: 24px; }
+    h1 { font-size: clamp(42px, 8vw, 86px); line-height: .95; letter-spacing: -.045em; margin: 0 auto 26px; max-width: 880px; font-weight: 500; }
+    .lead { font-size: clamp(20px, 3vw, 29px); color: var(--muted); max-width: 760px; margin: 0 auto 34px; line-height: 1.35; }
+    .btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      appearance: none;
+      border: 1px solid var(--accent);
+      background: var(--accent-dark);
+      color: #fffaf2;
+      padding: 14px 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(111,70,28,.18); }
+    .btn.secondary { background: transparent; color: var(--accent-dark); }
+
+    section { padding: 68px 0; }
+    .intro-card {
+      background: rgba(255,250,242,.72);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(28px, 5vw, 56px);
+      max-width: 920px;
+      margin: 0 auto;
+    }
+    h2 { font-size: clamp(31px, 5vw, 56px); line-height: 1.05; letter-spacing: -.035em; margin: 0 0 24px; font-weight: 500; }
+    h3 { font-size: 25px; line-height: 1.15; margin: 0 0 12px; font-weight: 500; }
+    p { font-size: 20px; margin: 0 0 16px; }
+    .small { font-family: Arial, sans-serif; font-size: 14px; color: var(--muted); }
+
+    .archive-head { display: grid; grid-template-columns: 1fr; gap: 22px; align-items: end; margin-bottom: 26px; }
+    .search { width: 100%; border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: 16px 20px; font-size: 16px; font-family: Arial, sans-serif; outline: none; color: var(--ink); }
+    .search:focus { border-color: var(--accent); box-shadow: 0 0 0 4px rgba(155,106,47,.12); }
+
+    .accordion { display: grid; gap: 14px; }
+    details {
+      background: rgba(255,250,242,.86);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 8px 28px rgba(48,35,22,.06);
+    }
+    summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 22px 24px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 20px;
+      align-items: center;
+    }
+    summary::-webkit-details-marker { display:none; }
+    .asker { font-family: Arial, sans-serif; font-size: 13px; color: var(--accent-dark); text-transform: uppercase; letter-spacing: .12em; margin-bottom: 7px; }
+    .question { font-size: clamp(22px, 3.3vw, 31px); line-height: 1.15; }
+    .chev { font-family: Arial, sans-serif; color: var(--accent-dark); font-size: 22px; transition: transform .2s ease; }
+    details[open] .chev { transform: rotate(180deg); }
+    .answer { border-top: 1px solid var(--line); padding: 24px; background: rgba(239,228,212,.36); }
+    .label { font-family: Arial, sans-serif; font-size: 12px; color: var(--accent-dark); text-transform: uppercase; letter-spacing: .18em; margin-bottom: 10px; font-weight: 700; }
+    .trace { font-size: clamp(22px, 3.2vw, 34px); line-height: 1.2; margin: 0; }
+    .card-cta { margin-top: 18px; }
+
+    .form-section { background: linear-gradient(180deg, transparent, rgba(255,250,242,.58)); }
+    form {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(24px, 5vw, 48px);
+      display: grid;
+      gap: 18px;
+    }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    label { display: grid; gap: 8px; font-family: Arial, sans-serif; font-weight: 700; font-size: 14px; color: var(--ink); }
+    input, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px 15px;
+      background: #fffdf8;
+      font: 16px Arial, sans-serif;
+      color: var(--ink);
+      outline: none;
+    }
+    textarea { min-height: 150px; resize: vertical; }
+    input:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 4px rgba(155,106,47,.12); }
+    .checks { display: grid; gap: 12px; margin: 4px 0; }
+    .check { display: flex; gap: 10px; align-items: flex-start; font-family: Arial, sans-serif; font-size: 14px; color: var(--muted); font-weight: 400; }
+    .check input { width: 18px; height: 18px; margin-top: 1px; flex: 0 0 auto; }
+    .note { border-left: 3px solid var(--accent); padding-left: 14px; color: var(--muted); }
+    .success {
+      display: none;
+      border: 1px solid var(--line);
+      background: #fffdf8;
+      border-radius: 20px;
+      padding: 22px;
+    }
+
+    .final-cta { text-align: center; max-width: 780px; margin: 0 auto; }
+    footer { padding: 38px 0; border-top: 1px solid var(--line); color: var(--muted); font-family: Arial, sans-serif; font-size: 13px; text-align: center; }
+
+    @media (max-width: 760px) {
+      header { position: static; }
+      .nav { align-items: flex-start; }
+      .navlinks { display: none; }
+      .hero { padding: 60px 0 48px; }
+      section { padding: 46px 0; }
+      .grid { grid-template-columns: 1fr; }
+      summary, .answer { padding: 20px; }
+      .btn { width: 100%; }
+      p { font-size: 18px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Archivio delle Domande",
+    "description": "Domande reali, Tracce e nuove prospettive per chi sente che una domanda continua a tornare.",
+    "url": "https://www.tarocchiliquidi.it/domande.html"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/">Tarocchi Liquidi</a>
+      <nav class="navlinks" aria-label="Navigazione principale">
+        <a href="#archivio">Archivio</a>
+        <a href="#invia">Invia una domanda</a>
+        <a href="/primo-passo.html">Prenota consulto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Archivio delle Domande</div>
+        <h1>C'è una domanda che continua a tornare?</h1>
+        <p class="lead">Forse non sta cercando una risposta.<br>Forse sta cercando attenzione, significato o il prossimo passo possibile.</p>
+        <div class="btns">
+          <a class="btn" href="#invia">Invia la tua domanda</a>
+          <a class="btn secondary" href="#archivio">Esplora l'Archivio</a>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="intro-title">
+      <div class="wrap">
+        <div class="intro-card">
+          <h2 id="intro-title">Qual è la domanda che continua a tornare nella tua vita?</h2>
+          <p>Le persone cambiano. Le situazioni cambiano. Eppure alcune domande continuano a tornare.</p>
+          <p>L'Archivio delle Domande raccoglie quelle domande. Ogni domanda pubblicata riceve una <strong>Traccia</strong>.</p>
+          <p>Non una risposta. Una nuova prospettiva da cui guardarla.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="archivio" aria-labelledby="archive-title">
+      <div class="wrap">
+        <div class="archive-head">
+          <div>
+            <div class="eyebrow">Le prime domande</div>
+            <h2 id="archive-title">L'Archivio</h2>
+            <p class="small">Cerca una parola, apri una domanda, leggi la sua Traccia.</p>
+          </div>
+          <input class="search" id="search" type="search" placeholder="Cerca una domanda: amore, scelta, paura, futuro..." aria-label="Cerca nell'Archivio" />
+        </div>
+
+        <div class="accordion" id="questions">
+          <details data-text="ho paura di ricominciare cambiamento futuro capitolo">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">Ho paura di ricominciare.</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Quale parte di te merita di essere portata nel prossimo capitolo?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+
+          <details data-text="non so se restare o andare relazione scelta amore separazione">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">Non so se restare o andare.</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Cosa sai già ma non stai ancora dicendo ad alta voce?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+
+          <details data-text="è troppo tardi per cambiare vita tempo futuro cambiamento">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">È troppo tardi per cambiare vita?</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Troppo tardi rispetto a quale storia?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+
+          <details data-text="non so più chi sono identità crisi cambiamento">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">Non so più chi sono.</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Quale versione di te ha terminato il proprio compito?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+
+          <details data-text="perché continuo ad attirare le stesse persone relazioni amore schema ripetizione">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">Perché continuo ad attirare le stesse persone?</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Quale storia sta cercando di ripetersi?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+
+          <details data-text="mi sento fermo blocco lavoro vita movimento">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">Mi sento fermo.</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Quale piccolo passo sarebbe già un movimento?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+
+          <details data-text="ho paura di sbagliare scelta decisione futuro dubbio">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">Ho paura di sbagliare scelta.</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Cosa accadrebbe se scegliessi senza dover essere perfetto?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+
+          <details data-text="non riesco a lasciare andare il passato memoria storia perdita">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">Non riesco a lasciare andare il passato.</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Cosa stai ancora cercando di salvare?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+
+          <details data-text="non so quale sia il prossimo passo direzione scelta futuro lavoro vita">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">Non so quale sia il prossimo passo.</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Quale passo continua a tornare nei tuoi pensieri?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+
+          <details data-text="sto andando nella direzione giusta futuro strada decisione vita">
+            <summary><div><div class="asker">Domanda anonima</div><div class="question">Sto andando nella direzione giusta?</div></div><span class="chev">⌄</span></summary>
+            <div class="answer"><div class="label">Traccia</div><p class="trace">Cosa ti sta già indicando la strada?</p><div class="card-cta"><a class="btn secondary" href="/primo-passo.html">Guardiamola insieme</a></div></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="invia" class="form-section" aria-labelledby="form-title">
+      <div class="wrap">
+        <div class="intro-card" style="margin-bottom:24px;">
+          <div class="eyebrow">Partecipa all'Archivio</div>
+          <h2 id="form-title">Invia la tua domanda</h2>
+          <p>A volte basta una frase.</p>
+        </div>
+
+        <form id="questionForm" action="#" method="POST">
+          <div class="grid">
+            <label>Nome <span class="small">facoltativo</span><input name="nome" type="text" autocomplete="given-name" /></label>
+            <label>Email <span class="small">facoltativa</span><input name="email" type="email" autocomplete="email" /></label>
+            <label>WhatsApp <span class="small">facoltativo</span><input name="whatsapp" type="tel" autocomplete="tel" /></label>
+          </div>
+
+          <label>Qual è la domanda che continua a tornare? <textarea name="domanda" required placeholder="Scrivila qui. Non serve raccontare tutto."></textarea></label>
+
+          <div class="checks">
+            <label class="check"><input type="checkbox" name="pubblicazione" /> Acconsento alla pubblicazione della mia domanda nell'Archivio.</label>
+            <label class="check"><input type="checkbox" name="nome_visibile" /> Se pubblicata, desidero che compaia il mio nome.</label>
+            <label class="check"><input type="checkbox" name="notifica" /> Desidero ricevere una notifica se la domanda verrà pubblicata.</label>
+          </div>
+
+          <p class="small note">Le domande vengono lette personalmente. Nessuna pubblicazione è automatica. Email, WhatsApp e dati personali non vengono pubblicati.</p>
+          <button class="btn" type="submit">Invia la tua domanda</button>
+          <div class="success" id="successBox">
+            <h3>Grazie.</h3>
+            <p>La tua domanda è stata ricevuta. Alcune domande non cercano una risposta immediata. Chiedono soltanto di essere ascoltate.</p>
+            <div class="btns" style="justify-content:flex-start;"><a class="btn secondary" href="#archivio">Torna all'Archivio</a><a class="btn" href="/primo-passo.html">Prenota un consulto</a></div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section aria-labelledby="trace-title">
+      <div class="wrap">
+        <div class="intro-card">
+          <h2 id="trace-title">Cos'è una Traccia?</h2>
+          <p>Una Traccia non è una risposta.</p>
+          <p>È una frase, una domanda o un'immagine capace di aiutare una domanda a trasformarsi.</p>
+          <p>A volte una Traccia apre una strada. A volte apre una domanda nuova.</p>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="intro-card">
+          <h2 id="about-title">Chi sono</h2>
+          <p>Ho passato una vita a osservare come le persone danno significato alle cose.</p>
+          <p>I Tarocchi di Marsiglia sono uno degli strumenti che utilizzo quando una domanda chiede di essere esplorata più a fondo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="consulto-title">
+      <div class="wrap final-cta">
+        <h2 id="consulto-title">A volte una domanda non cerca una risposta.</h2>
+        <p>Cerca qualcuno disposto a guardarla davvero.</p>
+        <p>Se senti che una domanda continua a tornare, possiamo guardarla insieme.</p>
+        <div class="btns"><a class="btn" href="/primo-passo.html">Prenota un consulto</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© Tarocchi Liquidi · Archivio delle Domande</div>
+  </footer>
+
+  <script>
+    const search = document.getElementById('search');
+    const items = Array.from(document.querySelectorAll('#questions details'));
+    search.addEventListener('input', () => {
+      const q = search.value.trim().toLowerCase();
+      items.forEach(item => {
+        const text = (item.dataset.text || item.innerText).toLowerCase();
+        item.style.display = text.includes(q) ? '' : 'none';
+      });
+    });
+
+    const form = document.getElementById('questionForm');
+    const successBox = document.getElementById('successBox');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const scriptURL = 'INSERISCI_QUI_URL_GOOGLE_APPS_SCRIPT';
+      const data = new FormData(form);
+      data.append('data_invio', new Date().toISOString());
+
+      if (scriptURL.includes('INSERISCI_QUI')) {
+        successBox.style.display = 'block';
+        successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        return;
+      }
+
+      try {
+        await fetch(scriptURL, { method: 'POST', body: data, mode: 'no-cors' });
+        form.reset();
+        successBox.style.display = 'block';
+        successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } catch (error) {
+        alert('Non è stato possibile inviare la domanda. Riprova tra poco.');
+      }
+    });
+  </script>
+</body>
+</html>
