@@ -111,6 +111,47 @@ body{font-size:16px;line-height:1.55}.card p,.panel p,.section-head p,.faq p{lin
 @media(max-width:900px){.hero h1,.page-hero h1,.author-hero h1{font-size:44px!important}.section-head h2,.final-cta h2{font-size:36px!important}.lead,.hero .lead,.page-hero .lead,.author-hero .lead{font-size:21px!important}}
 @media(max-width:480px){.hero h1,.page-hero h1,.author-hero h1{font-size:39px!important}.section-head h2,.final-cta h2{font-size:32px!important}.wrap{padding-left:18px!important;padding-right:18px!important}}
 
+
+/* v35 - Libri in tre colonne desktop */
+@media(min-width:1051px){
+  .books-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:16px!important;
+    align-items:stretch!important;
+  }
+  .book-panel{
+    grid-template-columns:1fr!important;
+    gap:18px!important;
+    padding:22px!important;
+  }
+  .book-panel img{
+    width:auto!important;
+    max-width:150px!important;
+    height:210px!important;
+    object-fit:contain!important;
+    margin:0 auto!important;
+  }
+  .book-panel h3{
+    font-size:clamp(29px,2.8vw,42px)!important;
+    line-height:.96!important;
+  }
+  .book-panel .book-subtitle{
+    font-size:18px!important;
+    line-height:1.22!important;
+  }
+  .book-panel p{
+    font-size:15px!important;
+    line-height:1.45!important;
+  }
+  .book-panel .cta{
+    margin-top:auto!important;
+  }
+  .book-panel .pill{
+    padding:12px 16px!important;
+    font-size:13px!important;
+  }
+}
+
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCVFMP5C15"></script>
