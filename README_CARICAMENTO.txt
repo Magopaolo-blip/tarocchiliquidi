@@ -1,21 +1,16 @@
-VERSIONE v17 - Home autore e conversione
+PATCH HOME V1 — Tarocchi Liquidi
 
-Carica TUTTO il contenuto di questa cartella nella root del repository GitHub.
-
-File principali aggiornati:
+Contenuto:
 - index.html
-- paolo-musetti/index.html
-- paolo-musetti.html redirect senza noindex
-- sitemap.xml
-- consulto-tarocchi-roma.html
 
-Dopo il caricamento controlla:
-https://www.tarocchiliquidi.it/
-https://www.tarocchiliquidi.it/paolo-musetti/
-https://www.tarocchiliquidi.it/consulto-tarocchi-roma.html
-https://www.tarocchiliquidi.it/sitemap.xml
+Istruzioni:
+1. Carica/sostituisci questo index.html nella root del repository GitHub.
+2. Attendi il deploy di GitHub Pages.
+3. Apri https://www.tarocchiliquidi.it/ e aggiorna con CTRL+F5.
 
-In Search Console, quando la quota torna disponibile, richiedi indicizzazione per:
-- /paolo-musetti/
-- /consulto-tarocchi-roma.html
-- /tarocchi-feste-private-roma.html
+Modifiche principali:
+- nuova headline: “C’è una domanda che continua a tornare?”
+- posizionamento affermativo centrato su significato e Traccia
+- riduzione box e ridondanze
+- CTA più coerenti
+- mantenuta gerarchia: Tarocchi Social Club, Addio al nubilato, Il Dono, Paolo Musetti, Consulto
