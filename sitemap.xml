@@ -12,4 +12,9 @@
   <url><loc>https://www.tarocchiliquidi.it/metodo-arianna.html</loc></url>
   <url><loc>https://www.tarocchiliquidi.it/attiva-il-tuo-incontro.html</loc></url>
   <url><loc>https://www.tarocchiliquidi.it/paolo-musetti/</loc></url>
+
+  <url>
+    <loc>https://www.tarocchiliquidi.it/biblioteca/</loc>
+    <priority>0.90</priority>
+  </url>
 </urlset>
