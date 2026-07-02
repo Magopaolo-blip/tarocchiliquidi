@@ -160,6 +160,112 @@ body{font-size:16px;line-height:1.55}.card p,.panel p,.section-head p,.faq p{lin
   }
 }
 
+
+/* v43 — mobile coerente con desktop */
+@media(max-width:900px){
+  .hero{
+    padding:64px 0 54px!important;
+  }
+  .hero-grid{
+    grid-template-columns:1fr .92fr!important;
+    gap:34px!important;
+    align-items:center!important;
+  }
+  .hero h1{
+    font-size:clamp(46px,9vw,72px)!important;
+    line-height:.96!important;
+    letter-spacing:-.05em!important;
+  }
+  .hero h1 span{
+    display:block!important;
+  }
+  .hero .lead{
+    font-size:clamp(22px,5vw,30px)!important;
+    line-height:1.18!important;
+  }
+  .hero .note{
+    font-size:17px!important;
+    line-height:1.5!important;
+  }
+  .hero .cta{
+    display:flex!important;
+    grid-template-columns:none!important;
+    flex-wrap:wrap!important;
+  }
+  .hero .cta .pill{
+    width:auto!important;
+    min-width:220px!important;
+  }
+  .hero-mini{
+    display:grid!important;
+    grid-template-columns:1fr 1fr!important;
+    gap:18px!important;
+  }
+  .experience-grid,
+  .three-steps,
+  .grid.three,
+  .grid.two,
+  .review-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+  .media-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:16px!important;
+  }
+  .media-card img,
+  .media-card.featured img{
+    height:300px!important;
+    aspect-ratio:auto!important;
+    object-fit:cover!important;
+  }
+  .section-head.center{
+    text-align:center!important;
+  }
+  .wrap{
+    padding-left:28px!important;
+    padding-right:28px!important;
+  }
+}
+
+@media(max-width:560px){
+  .hero-grid{
+    grid-template-columns:1fr!important;
+  }
+  .hero h1{
+    font-size:46px!important;
+  }
+  .hero .cta{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+  }
+  .hero .cta .pill{
+    width:100%!important;
+    min-width:0!important;
+  }
+  .hero-mini{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+  }
+  .experience-grid,
+  .three-steps,
+  .grid.three,
+  .grid.two,
+  .review-grid{
+    grid-template-columns:1fr!important;
+  }
+  .media-grid{
+    grid-template-columns:1fr!important;
+  }
+  .media-card img,
+  .media-card.featured img{
+    height:auto!important;
+    aspect-ratio:16/10!important;
+  }
+  .section-head.center{
+    text-align:center!important;
+  }
+}
+
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCVFMP5C15"></script>
