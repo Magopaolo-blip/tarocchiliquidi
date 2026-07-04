@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1120" role="img" aria-label="L'Amoureux - Tarocchi Liquidi">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7e2"/>
+      <stop offset="1" stop-color="#d9c498"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4bf"/>
+      <stop offset="0.45" stop-color="#caa45a"/>
+      <stop offset="1" stop-color="#fff6cf"/>
+    </linearGradient>
+    <style>
+      .ink{stroke:#211a13;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;fill:none}
+      .thin{stroke:#211a13;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+      .gold{stroke:url(#gold);stroke-width:9;fill:none;filter:url(#glow)}
+      .txt{font-family: Georgia, 'Times New Roman', serif;fill:#241b13;letter-spacing:.08em}
+    </style>
+  </defs>
+  <rect x="42" y="36" width="636" height="1048" rx="34" fill="url(#paper)" opacity="0.92"/>
+  <rect x="56" y="50" width="608" height="1020" rx="26" class="gold" opacity="0.62"/>
+  <rect x="74" y="88" width="572" height="944" rx="12" fill="rgba(255,250,235,.45)" stroke="#2a2117" stroke-width="3" opacity=".75"/>
+  <text x="360" y="145" font-size="48" text-anchor="middle" class="txt">VI</text>
+  <line x1="128" y1="175" x2="592" y2="175" class="thin"/>
+
+  <!-- sun / cupid field -->
+  <circle cx="360" cy="258" r="62" fill="#f0c767" stroke="#221a12" stroke-width="5"/>
+  <g opacity=".85">
+    <path d="M360 128 L382 206 L458 169 L410 235 L497 249 L410 277 L461 342 L384 306 L360 386 L336 306 L259 342 L310 277 L223 249 L310 235 L262 169 L338 206 Z" fill="#d9a63d" stroke="#221a12" stroke-width="4"/>
+  </g>
+  <path d="M322 243 C344 210 376 210 398 243" class="ink"/>
+  <path d="M320 278 C340 302 380 302 400 278" class="thin"/>
+  <circle cx="342" cy="257" r="5" fill="#211a13"/><circle cx="378" cy="257" r="5" fill="#211a13"/>
+  <path d="M260 275 C220 240 213 205 237 183 C275 206 293 239 285 283" fill="#f5df9e" stroke="#211a13" stroke-width="4"/>
+  <path d="M460 275 C500 240 507 205 483 183 C445 206 427 239 435 283" fill="#f5df9e" stroke="#211a13" stroke-width="4"/>
+  <path d="M332 322 L247 477" class="ink"/>
+  <path d="M388 322 L474 477" class="ink"/>
+
+  <!-- figures -->
+  <g transform="translate(120 438)">
+    <circle cx="86" cy="58" r="42" fill="#f1c98a" stroke="#211a13" stroke-width="5"/>
+    <path d="M50 55 C65 24 98 12 128 38" class="thin"/>
+    <path d="M44 110 C32 208 22 344 44 474 L142 474 C160 338 151 209 128 110 Z" fill="#527ba0" stroke="#211a13" stroke-width="5"/>
+    <path d="M128 112 C168 142 180 212 180 300" class="ink"/>
+    <path d="M45 112 C17 145 8 215 14 302" class="ink"/>
+    <path d="M50 210 L142 210" class="thin"/><path d="M63 260 L132 260" class="thin"/>
+    <path d="M78 100 C95 148 105 218 97 475" stroke="#b85033" stroke-width="18" fill="none" opacity=".75"/>
+  </g>
+
+  <g transform="translate(278 395)">
+    <circle cx="82" cy="58" r="42" fill="#f1c98a" stroke="#211a13" stroke-width="5"/>
+    <path d="M42 48 C62 15 104 13 125 49" class="thin"/>
+    <path d="M36 112 C16 214 17 350 42 515 L125 515 C150 350 150 213 128 112 Z" fill="#dca253" stroke="#211a13" stroke-width="5"/>
+    <path d="M43 117 C-3 157 -10 245 12 335" class="ink"/>
+    <path d="M127 117 C177 160 174 247 151 335" class="ink"/>
+    <path d="M45 207 L123 207" class="thin"/><path d="M47 262 L121 262" class="thin"/>
+    <path d="M82 99 C82 205 82 348 82 515" stroke="#7f8e53" stroke-width="16" fill="none" opacity=".65"/>
+  </g>
+
+  <g transform="translate(458 438)">
+    <circle cx="86" cy="58" r="42" fill="#f1c98a" stroke="#211a13" stroke-width="5"/>
+    <path d="M50 52 C65 22 102 17 128 44" class="thin"/>
+    <path d="M48 110 C28 220 25 348 44 474 L142 474 C163 350 161 220 128 110 Z" fill="#c2543c" stroke="#211a13" stroke-width="5"/>
+    <path d="M46 113 C14 148 6 221 16 304" class="ink"/>
+    <path d="M128 112 C169 150 182 218 177 300" class="ink"/>
+    <path d="M51 210 L141 210" class="thin"/><path d="M61 260 L132 260" class="thin"/>
+    <path d="M96 100 C88 185 88 322 102 474" stroke="#2d6181" stroke-width="17" fill="none" opacity=".7"/>
+  </g>
+
+  <path d="M206 658 C265 605 317 592 360 598 C414 606 469 631 516 668" class="thin" opacity=".75"/>
+  <path d="M245 714 C298 675 414 675 474 714" class="thin" opacity=".55"/>
+  <line x1="128" y1="940" x2="592" y2="940" class="thin"/>
+  <text x="360" y="1002" font-size="54" text-anchor="middle" class="txt">L’AMOUREUX</text>
+</svg>
