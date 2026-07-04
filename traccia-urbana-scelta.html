@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Traccia Urbana — La Scelta | Tarocchi Liquidi</title>
-  <meta name="description" content="Hai trovato una Traccia Urbana. Attiva la carta, ascolta la voce di Paolo e fai il Primo Passo." />
+  <meta name="description" content="Hai trovato una Traccia Urbana. Attiva la carta, ascolta la voce del Tarocco e fai il Primo Passo." />
   <meta name="theme-color" content="#11100d" />
   <style>
     :root{
@@ -34,7 +34,7 @@
     .camera.active ~ .brand{display:block}
     .ar-card-wrap{position:fixed;left:50%;top:42%;width:min(54vw,235px);aspect-ratio:720/1120;transform:translate(-50%,-50%);z-index:6;display:none;filter:drop-shadow(0 0 14px rgba(244,223,155,.46)) drop-shadow(0 32px 35px rgba(0,0,0,.4));animation:floatCard 5.6s ease-in-out infinite}
     .camera.active .ar-card-wrap,.camera.active ~ .ar-card-wrap{display:block}
-    .ar-card{width:100%;height:auto;display:block;border-radius:16px;opacity:.94;mix-blend-mode:screen}
+    .ar-card{width:100%;height:auto;display:block;border-radius:16px;opacity:.94;mix-blend-mode:normal}
     .ar-card-wrap:before{content:"";position:absolute;left:50%;bottom:-24px;width:118%;height:44px;transform:translateX(-50%);border-radius:50%;border:1px solid rgba(244,223,155,.55);box-shadow:0 0 24px rgba(244,223,155,.36),inset 0 0 24px rgba(244,223,155,.22);animation:pulseRing 2.4s ease-in-out infinite}
     .ar-card-wrap:after{content:"";position:absolute;inset:-18px;border-radius:22px;border:1px solid rgba(244,223,155,.35);box-shadow:inset 0 0 22px rgba(244,223,155,.15)}
     .particles{position:fixed;inset:0;z-index:5;display:none;pointer-events:none;overflow:hidden}
@@ -72,14 +72,14 @@
   <div class="veil"></div>
   <div class="brand">Tarocchi Liquidi</div>
   <button class="close" id="closeBtn" aria-label="Chiudi">×</button>
-  <div class="ar-card-wrap"><img class="ar-card" src="assets/amoureux-liquid.svg" alt="L'Amoureux in realtà aumentata" /></div>
+  <div class="ar-card-wrap"><img class="ar-card" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/L%27Amoureux.jpg" alt="L'Amoureux in realtà aumentata" /></div>
   <div class="particles" id="particles" aria-hidden="true"></div>
   <section class="hud" aria-live="polite">
     <div class="hud-card">
       <h2 class="hud-title">La Traccia della Scelta</h2>
       <p class="hud-text">Ascolta. Rifletti. Poi scegli il tuo Primo Passo.</p>
       <div class="row">
-        <button class="btn secondary" id="audioBtn">▶ Ascolta la voce di Paolo</button>
+        <button class="btn secondary" id="audioBtn">▶ Ascolta la voce del Tarocco</button>
         <a class="btn whatsapp" id="waBtn" href="#">Fai il Primo Passo</a>
       </div>
       <a class="link" href="https://www.tarocchiliquidi.it/primo-passo.html">Approfondisci sul sito</a>
@@ -161,7 +161,7 @@
       }
     }
 
-    audio.addEventListener('ended',()=>{ audioBtn.textContent = '▶ Riascolta la voce di Paolo'; });
+    audio.addEventListener('ended',()=>{ audioBtn.textContent = '▶ Riascolta la voce del Tarocco'; });
     startBtn.addEventListener('click', start);
     closeBtn.addEventListener('click', stop);
     audioBtn.addEventListener('click', playAudio);
