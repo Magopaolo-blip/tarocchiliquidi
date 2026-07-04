@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sticker QR — Traccia Urbana La Scelta</title>
+<style>
+  :root{--ink:#18140f;--paper:#f4ead6;--gold:#b69352}
+  body{margin:0;background:#222;color:var(--ink);font-family:Georgia,"Times New Roman",serif;display:grid;place-items:center;min-height:100vh;padding:24px}
+  .sheet{width:210mm;min-height:297mm;background:#fff;padding:18mm;display:grid;grid-template-columns:repeat(2,1fr);gap:14mm;align-content:start;box-shadow:0 20px 80px rgba(0,0,0,.35)}
+  .sticker{width:78mm;height:112mm;border:1px solid rgba(24,20,15,.22);border-radius:7mm;background:linear-gradient(#fffaf0,#eadcc0);padding:9mm 7mm;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:space-between;break-inside:avoid;position:relative;overflow:hidden}
+  .sticker:before{content:"";position:absolute;inset:5mm;border:1px solid rgba(182,147,82,.38);border-radius:5mm;pointer-events:none}
+  .logo{font-size:16px;letter-spacing:.28em;text-transform:uppercase;line-height:1.45;margin-top:2mm}.logo small{font-size:10px;letter-spacing:.35em;display:block}.drop{width:20mm;height:18mm;margin-bottom:1mm}.q{font-size:24px;line-height:1.12;margin:4mm 0 3mm}.qr{width:35mm;height:35mm;image-rendering:auto}.cta{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-transform:uppercase;letter-spacing:.13em;font-size:10px;font-weight:650;margin-bottom:2mm}.brand{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#4b3b24}
+  @media print{body{background:#fff;padding:0}.sheet{box-shadow:none;width:210mm;min-height:297mm;padding:16mm}.no-print{display:none}}
+  .no-print{position:fixed;left:18px;bottom:18px;color:#fff;font-family:system-ui,sans-serif;font-size:14px;opacity:.78}
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <script>
+      for(let i=0;i<8;i++){
+        document.write(`<article class="sticker">
+          <div>
+            <svg class="drop" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 8 C38 28 26 43 26 58a24 24 0 0 0 48 0C74 43 62 28 50 8Z" fill="none" stroke="#b69352" stroke-width="4"/><path d="M23 84c16 6 38 6 54 0" fill="none" stroke="#b69352" stroke-width="3"/></svg>
+            <div class="logo">Tarocchi<small>Liquidi</small></div>
+          </div>
+          <div class="q">C’è una scelta<br>che continui<br>a rimandare?</div>
+          <img class="qr" src="assets/qrcode-traccia.png" alt="QR Traccia Urbana La Scelta" />
+          <div>
+            <div class="cta">Attiva la Traccia</div>
+            <div class="brand">Traccia Urbana</div>
+          </div>
+        </article>`)
+      }
+    </script>
+  </div>
+  <div class="no-print">Stampa in A4, scala 100%. Il QR punta a: https://www.tarocchiliquidi.it/traccia-urbana-scelta.html</div>
+</body>
+</html>
