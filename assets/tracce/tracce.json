@@ -3,146 +3,186 @@
     "numero": "Le Mat",
     "nome": "Il Matto",
     "titolo": "La Traccia del Movimento",
-    "domanda": "Quale passo continui a rimandare?",
+    "domanda": "Quale parte di te vuole partire senza avere tutte le garanzie?",
     "carta": "assets/tracce/matto.jpg",
-    "audio": "assets/tracce/matto.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Nel lavoro di Jodorowsky il Matto è energia libera: non ha numero perché può entrare ovunque nel viaggio.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "A volte il movimento nasce prima della spiegazione."
+        "fine": 5,
+        "testo": "Il Matto non chiede permesso alla strada."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Non tutto ciò che chiama ha già una forma."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "È l’energia che si muove prima della spiegazione."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Quale passo continui a rimandare?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale parte di te vuole partire senza avere tutte le garanzie?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando smetti di restare fermo."
       }
     ],
-    "audioM4a": "assets/tracce/matto.m4a",
-    "qr": "assets/tracce/qr-matto.png"
+    "qr": "assets/tracce/qr-matto.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "bagatto": {
     "numero": "I",
     "nome": "Il Bagatto",
     "titolo": "La Traccia dell’Inizio",
-    "domanda": "Cosa puoi iniziare con ciò che hai già?",
+    "domanda": "Quale inizio stai rimandando perché lo immagini troppo grande?",
     "carta": "assets/tracce/bagatto.jpg",
-    "audio": "assets/tracce/bagatto.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Nel sistema numerologico di Jodorowsky, l’Uno apre il piano dell’azione: il Bagatto ha già gli strumenti, ma deve scegliere di usarli.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Ogni inizio chiede strumenti semplici."
+        "fine": 5,
+        "testo": "Il Bagatto non aspetta lo strumento perfetto."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Spesso sono già davanti a te."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Sul tavolo c’è più di quanto credi di avere."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Cosa puoi iniziare con ciò che hai già?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale inizio stai rimandando perché lo immagini troppo grande?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua dal primo gesto concreto."
       }
     ],
-    "audioM4a": "assets/tracce/bagatto.m4a",
-    "qr": "assets/tracce/qr-bagatto.png"
+    "qr": "assets/tracce/qr-bagatto.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "papessa": {
     "numero": "II",
     "nome": "La Papessa",
     "titolo": "La Traccia dell’Ascolto",
-    "domanda": "Che cosa sai già, ma non stai ascoltando?",
+    "domanda": "Che cosa sai già, ma continui a non ascoltare?",
     "carta": "assets/tracce/papessa.jpg",
-    "audio": "assets/tracce/papessa.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "La Papessa custodisce un libro aperto: nel linguaggio marsigliese la conoscenza è presente, ma va assimilata prima di essere detta.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Non ogni risposta arriva parlando."
+        "fine": 5,
+        "testo": "La Papessa non corre verso la risposta."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Alcune chiedono silenzio e attenzione."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Tiene un libro aperto e insegna a restare in ascolto."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Che cosa sai già, ma non stai ascoltando?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Che cosa sai già, ma continui a non ascoltare?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando dai forma al silenzio."
       }
     ],
-    "audioM4a": "assets/tracce/papessa.m4a",
-    "qr": "assets/tracce/qr-papessa.png"
+    "qr": "assets/tracce/qr-papessa.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "imperatrice": {
     "numero": "III",
     "nome": "L’Imperatrice",
-    "titolo": "La Traccia della Forma",
-    "domanda": "Quale idea chiede di diventare reale?",
+    "titolo": "La Traccia della Creazione",
+    "domanda": "Quale idea vuole uscire dalla tua testa e diventare reale?",
     "carta": "assets/tracce/imperatrice.jpg",
-    "audio": "assets/tracce/imperatrice.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Per Jodorowsky il Tre è esplosione creativa: l’energia interna prende linguaggio, immagine, corpo.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Un’idea resta fragile finché non trova corpo."
+        "fine": 5,
+        "testo": "L’Imperatrice non conserva l’idea: la genera."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "La forma non chiude: rende visibile."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "La creatività diventa vera quando prende forma."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Quale idea chiede di diventare reale?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale idea vuole uscire dalla tua testa e diventare reale?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua dove l’immaginazione diventa gesto."
       }
     ],
-    "audioM4a": "assets/tracce/imperatrice.m4a",
-    "qr": "assets/tracce/qr-imperatrice.png"
+    "qr": "assets/tracce/qr-imperatrice.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "imperatore": {
     "numero": "IIII",
     "nome": "L’Imperatore",
     "titolo": "La Traccia della Struttura",
-    "domanda": "Dove serve una decisione più chiara?",
+    "domanda": "Dove hai bisogno di un confine più chiaro?",
     "carta": "assets/tracce/imperatore.jpg",
-    "audio": "assets/tracce/imperatore.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Nel Marsiglia il quattro stabilizza: l’Imperatore non è durezza, è una forma capace di sostenere l’azione.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "La chiarezza non irrigidisce: sostiene."
+        "fine": 5,
+        "testo": "L’Imperatore dà forma a ciò che rischia di disperdersi."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Ci sono momenti in cui serve una forma stabile."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Un limite sano può diventare sostegno."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Dove serve una decisione più chiara?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Dove hai bisogno di un confine più chiaro?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando scegli una posizione."
       }
     ],
-    "audioM4a": "assets/tracce/imperatore.m4a",
-    "qr": "assets/tracce/qr-imperatore.png"
+    "qr": "assets/tracce/qr-imperatore.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "papa": {
     "numero": "V",
@@ -150,28 +190,36 @@
     "titolo": "La Traccia del Passaggio",
     "domanda": "Quale consiglio sei pronto a ricevere davvero?",
     "carta": "assets/tracce/papa.jpg",
-    "audio": "assets/tracce/papa.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Il Papa collega due mondi: nel metodo Jodorowsky è un ponte tra esperienza, parola e trasmissione.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Non ogni guida indica una strada nuova."
+        "fine": 5,
+        "testo": "Il Papa non impone una verità."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "A volte conferma ciò che stai evitando."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Apre un passaggio tra ciò che sai e ciò che puoi ascoltare."
       },
       {
-        "inizio": 8,
-        "fine": 13,
+        "inizio": 10,
+        "fine": 15,
         "testo": "Quale consiglio sei pronto a ricevere davvero?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando una parola trova posto."
       }
     ],
-    "audioM4a": "assets/tracce/papa.m4a",
-    "qr": "assets/tracce/qr-papa.png"
+    "qr": "assets/tracce/qr-papa.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "amoureux": {
     "numero": "VI",
@@ -179,463 +227,590 @@
     "titolo": "La Traccia della Scelta",
     "domanda": "C’è una scelta che continui a rimandare?",
     "carta": "https://upload.wikimedia.org/wikipedia/commons/a/a6/L%27Amoureux.jpg",
-    "audio": "assets/tracce/amoureux.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Jodorowsky legge spesso L’Amoureux come il luogo del cuore, del dubbio e del desiderio: non solo amore, ma scelta viva.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Non tutte le scelte chiedono una risposta immediata."
+        "fine": 5,
+        "testo": "L’Amoureux non parla solo d’amore."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Alcune chiedono solo di essere guardate davvero."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Parla del punto in cui desiderio, paura e scelta si incontrano."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Cosa stai scegliendo quando continui a rimandare?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "C’è una scelta che continui a rimandare?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando guardi il bivio senza fuggire."
       }
     ],
-    "nota_carta": "Wikimedia Commons, Public Domain/PD-self: File:L'Amoureux.jpg",
-    "audioM4a": "assets/tracce/amoureux.m4a",
-    "qr": "assets/tracce/qr-amoureux.png"
+    "qr": "assets/tracce/qr-amoureux.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "carro": {
     "numero": "VII",
     "nome": "Il Carro",
     "titolo": "La Traccia della Direzione",
-    "domanda": "Dove stai andando con tutta questa energia?",
+    "domanda": "Dove stai andando con energia, ma senza vera direzione?",
     "carta": "assets/tracce/carro.jpg",
-    "audio": "assets/tracce/carro.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Il Carro mostra un movimento potente: nel linguaggio marsigliese la vittoria chiede governo delle forze opposte.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "L’energia ha bisogno di una direzione."
+        "fine": 5,
+        "testo": "Il Carro avanza, ma non basta andare avanti."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Altrimenti corre, ma non arriva."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Due forze tirano: serve una direzione interiore."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Dove stai andando con tutta questa energia?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Dove stai andando con energia, ma senza vera direzione?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando scegli cosa guidare."
       }
     ],
-    "audioM4a": "assets/tracce/carro.m4a",
-    "qr": "assets/tracce/qr-carro.png"
+    "qr": "assets/tracce/qr-carro.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "giustizia": {
     "numero": "VIII",
     "nome": "La Giustizia",
     "titolo": "La Traccia dell’Equilibrio",
-    "domanda": "Che cosa chiede di essere rimesso al suo posto?",
+    "domanda": "Quale verità stai evitando per non dover scegliere?",
     "carta": "assets/tracce/giustizia.jpg",
-    "audio": "assets/tracce/giustizia.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Nel Marsiglia la Giustizia guarda frontalmente: bilancia e spada chiedono misura, taglio e responsabilità.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "L’equilibrio non è immobilità."
+        "fine": 5,
+        "testo": "La Giustizia non consola: mette in asse."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "È una misura che torna visibile."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "La bilancia pesa, la spada separa ciò che va distinto."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Che cosa chiede di essere rimesso al suo posto?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale verità stai evitando per non dover scegliere?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando ritrovi misura."
       }
     ],
-    "audioM4a": "assets/tracce/giustizia.m4a",
-    "qr": "assets/tracce/qr-giustizia.png"
+    "qr": "assets/tracce/qr-giustizia.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "eremita": {
     "numero": "VIIII",
     "nome": "L’Eremita",
-    "titolo": "La Traccia della Luce",
-    "domanda": "Cosa puoi vedere solo rallentando?",
+    "titolo": "La Traccia della Ricerca",
+    "domanda": "Che cosa puoi vedere solo rallentando?",
     "carta": "assets/tracce/eremita.jpg",
-    "audio": "assets/tracce/eremita.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "L’Eremita porta una lanterna: la sua luce è piccola, ma basta per il passo successivo.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Ci sono luci che si vedono solo da vicino."
+        "fine": 5,
+        "testo": "L’Eremita non illumina tutto."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Per questo serve rallentare."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Tiene una luce piccola, sufficiente al prossimo passo."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Cosa puoi vedere solo rallentando?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Che cosa puoi vedere solo rallentando?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua dove il rumore si abbassa."
       }
     ],
-    "audioM4a": "assets/tracce/eremita.m4a",
-    "qr": "assets/tracce/qr-eremita.png"
+    "qr": "assets/tracce/qr-eremita.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "ruota": {
     "numero": "X",
     "nome": "La Ruota di Fortuna",
     "titolo": "La Traccia del Ciclo",
-    "domanda": "Quale schema si sta ripetendo?",
+    "domanda": "Quale ciclo continua a ripetersi nella tua vita?",
     "carta": "assets/tracce/ruota.jpg",
-    "audio": "assets/tracce/ruota.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "La Ruota non promette fortuna: mostra il movimento dei cicli e il punto in cui puoi smettere di subirli.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Non tutto torna per caso."
+        "fine": 5,
+        "testo": "La Ruota gira anche quando resti fermo."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "A volte un ciclo chiede di essere riconosciuto."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Non chiede di controllare tutto, ma di riconoscere il ciclo."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Quale schema si sta ripetendo?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale ciclo continua a ripetersi nella tua vita?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando riconosci il punto che ritorna."
       }
     ],
-    "audioM4a": "assets/tracce/ruota.m4a",
-    "qr": "assets/tracce/qr-ruota.png"
+    "qr": "assets/tracce/qr-ruota.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "forza": {
     "numero": "XI",
     "nome": "La Forza",
-    "titolo": "La Traccia del Coraggio",
-    "domanda": "Quale forza stai trattenendo?",
+    "titolo": "La Traccia dell’Istinto",
+    "domanda": "Quale forza stai trattenendo invece di educare?",
     "carta": "assets/tracce/forza.jpg",
-    "audio": "assets/tracce/forza.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "La Forza non schiaccia il leone: lo incontra. La potenza matura nasce dalla relazione con l’istinto.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "La forza più sottile non schiaccia."
+        "fine": 5,
+        "testo": "La Forza non combatte il leone."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Tiene aperto ciò che fa paura."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Lo tocca, lo ascolta, lo contiene senza spegnerlo."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Quale forza stai trattenendo?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale forza stai trattenendo invece di educare?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando l’istinto diventa alleato."
       }
     ],
-    "audioM4a": "assets/tracce/forza.m4a",
-    "qr": "assets/tracce/qr-forza.png"
+    "qr": "assets/tracce/qr-forza.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "appeso": {
     "numero": "XII",
     "nome": "L’Appeso",
     "titolo": "La Traccia del Rovesciamento",
-    "domanda": "Cosa cambia se guardi tutto da un altro punto?",
+    "domanda": "Cosa cambia se smetti di forzare la situazione?",
     "carta": "assets/tracce/appeso.jpg",
-    "audio": "assets/tracce/appeso.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "L’Appeso è fermo, ma non vuoto: nel rovesciamento può nascere una visione diversa.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Quando nulla si muove, può cambiare lo sguardo."
+        "fine": 5,
+        "testo": "L’Appeso non avanza, ma vede da un altro lato."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Il punto di vista è già una soglia."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "A volte la sospensione non blocca: rivela."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Cosa cambia se guardi tutto da un altro punto?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Cosa cambia se smetti di forzare la situazione?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando cambi punto di vista."
       }
     ],
-    "audioM4a": "assets/tracce/appeso.m4a",
-    "qr": "assets/tracce/qr-appeso.png"
+    "qr": "assets/tracce/qr-appeso.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "arcano-senza-nome": {
     "numero": "XIII",
     "nome": "L’Arcano senza Nome",
     "titolo": "La Traccia del Taglio",
-    "domanda": "Che cosa ha finito il suo compito?",
+    "domanda": "Che cosa deve finire perché qualcosa possa respirare?",
     "carta": "assets/tracce/arcano-senza-nome.jpg",
-    "audio": "assets/tracce/arcano-senza-nome.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Nei Tarocchi di Marsiglia l’Arcano XIII non porta il nome “Morte”: questo sposta l’attenzione dal destino al processo di trasformazione.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Non ogni fine è una perdita."
+        "fine": 5,
+        "testo": "L’Arcano senza Nome non annuncia una fine: taglia il superfluo."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "A volte è spazio che torna disponibile."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Ciò che cade può liberare spazio vitale."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Che cosa ha finito il suo compito?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Che cosa deve finire perché qualcosa possa respirare?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua dove osi lasciare andare."
       }
     ],
-    "audioM4a": "assets/tracce/arcano-senza-nome.m4a",
-    "qr": "assets/tracce/qr-arcano-senza-nome.png"
+    "qr": "assets/tracce/qr-arcano-senza-nome.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "temperanza": {
     "numero": "XIIII",
     "nome": "Temperanza",
-    "titolo": "La Traccia del Passaggio",
-    "domanda": "Che cosa va versato con più misura?",
+    "titolo": "La Traccia del Flusso",
+    "domanda": "Che cosa in te chiede di tornare a circolare?",
     "carta": "assets/tracce/temperanza.jpg",
-    "audio": "assets/tracce/temperanza.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Temperanza versa da un vaso all’altro: è l’arte di far passare energia senza disperderla.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "La misura non spegne l’intensità."
+        "fine": 5,
+        "testo": "Temperanza non trattiene: fa passare."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Le permette di circolare."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Due vasi, un flusso, una misura nuova."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Che cosa va versato con più misura?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Che cosa in te chiede di tornare a circolare?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando ritrovi il passaggio."
       }
     ],
-    "audioM4a": "assets/tracce/temperanza.m4a",
-    "qr": "assets/tracce/qr-temperanza.png"
+    "qr": "assets/tracce/qr-temperanza.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "diavolo": {
     "numero": "XV",
     "nome": "Il Diavolo",
-    "titolo": "La Traccia del Legame",
-    "domanda": "A che cosa stai dando troppo potere?",
+    "titolo": "La Traccia del Desiderio",
+    "domanda": "Quale desiderio stai giudicando invece di comprendere?",
     "carta": "assets/tracce/diavolo.jpg",
-    "audio": "assets/tracce/diavolo.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Nel metodo Jodorowsky il Diavolo non è solo caduta: è energia creativa grezza, corpo, desiderio, materia da integrare.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Un legame può nutrire o trattenere."
+        "fine": 5,
+        "testo": "Il Diavolo mostra ciò che preferisci tenere nell’ombra."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "La differenza si sente nel corpo."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Ma l’ombra non è il nemico: è energia non ancora ascoltata."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "A che cosa stai dando troppo potere?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale desiderio stai giudicando invece di comprendere?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando smetti di scappare da te."
       }
     ],
-    "audioM4a": "assets/tracce/diavolo.m4a",
-    "qr": "assets/tracce/qr-diavolo.png"
+    "qr": "assets/tracce/qr-diavolo.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "torre": {
     "numero": "XVI",
-    "nome": "La Torre",
+    "nome": "La Maison Dieu",
     "titolo": "La Traccia dell’Apertura",
-    "domanda": "Che cosa si sta aprendo mentre qualcosa cede?",
+    "domanda": "Quale struttura si sta aprendo perché non può più contenerti?",
     "carta": "assets/tracce/torre.jpg",
-    "audio": "assets/tracce/torre.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Jodorowsky rilegge spesso la Maison Dieu come apertura e liberazione di energia, non solo come crollo.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Ciò che cede non sempre distrugge."
+        "fine": 5,
+        "testo": "La Maison Dieu non è soltanto una torre che cade."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "A volte lascia entrare aria."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "È una forma che si apre quando la vita preme dall’interno."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Che cosa si sta aprendo mentre qualcosa cede?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale struttura si sta aprendo perché non può più contenerti?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua dove la crepa diventa passaggio."
       }
     ],
-    "audioM4a": "assets/tracce/torre.m4a",
-    "qr": "assets/tracce/qr-torre.png"
+    "qr": "assets/tracce/qr-torre.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "stella": {
     "numero": "XVII",
     "nome": "La Stella",
     "titolo": "La Traccia della Fiducia",
-    "domanda": "Dove puoi tornare semplice?",
+    "domanda": "Dove puoi tornare semplice senza sentirti fragile?",
     "carta": "assets/tracce/stella.jpg",
-    "audio": "assets/tracce/stella.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "La Stella versa acqua sulla terra e nell’acqua: mostra un gesto nudo, essenziale, rigenerante.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "La fiducia non chiede rumore."
+        "fine": 5,
+        "testo": "La Stella non recita una parte."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "A volte somiglia a tornare semplici."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Si mostra semplice, presente, in contatto con ciò che nutre."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Dove puoi tornare semplice?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Dove puoi tornare semplice senza sentirti fragile?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando la fiducia diventa gesto."
       }
     ],
-    "audioM4a": "assets/tracce/stella.m4a",
-    "qr": "assets/tracce/qr-stella.png"
+    "qr": "assets/tracce/qr-stella.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "luna": {
     "numero": "XVIII",
     "nome": "La Luna",
-    "titolo": "La Traccia dell’Immagine",
-    "domanda": "Quale paura sta prendendo forma?",
+    "titolo": "La Traccia dell’Immagine Interiore",
+    "domanda": "Quale paura sta parlando con la voce dell’intuizione?",
     "carta": "assets/tracce/luna.jpg",
-    "audio": "assets/tracce/luna.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "La Luna è una carta di acque, animali e memoria: non chiarisce subito, ma fa emergere ciò che agisce sotto la superficie.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Non tutto ciò che appare grande lo è davvero."
+        "fine": 5,
+        "testo": "La Luna non illumina come il Sole."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Le immagini crescono nel buio."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Fa affiorare immagini, paure, memorie e intuizioni."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Quale paura sta prendendo forma?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale paura sta parlando con la voce dell’intuizione?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando distingui sogno e timore."
       }
     ],
-    "audioM4a": "assets/tracce/luna.m4a",
-    "qr": "assets/tracce/qr-luna.png"
+    "qr": "assets/tracce/qr-luna.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "sole": {
     "numero": "XVIIII",
     "nome": "Il Sole",
     "titolo": "La Traccia della Chiarezza",
-    "domanda": "Che cosa diventa semplice alla luce?",
+    "domanda": "Con chi puoi smettere di difenderti?",
     "carta": "assets/tracce/sole.jpg",
-    "audio": "assets/tracce/sole.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Nel Marsiglia il Sole mostra spesso due figure insieme: la chiarezza è anche relazione, calore, riconoscimento reciproco.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "La chiarezza non sempre aggiunge."
+        "fine": 5,
+        "testo": "Il Sole non illumina per isolare."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Spesso toglie ciò che confonde."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Rende visibile ciò che può essere condiviso."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Che cosa diventa semplice alla luce?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Con chi puoi smettere di difenderti?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua dove la chiarezza diventa incontro."
       }
     ],
-    "audioM4a": "assets/tracce/sole.m4a",
-    "qr": "assets/tracce/qr-sole.png"
+    "qr": "assets/tracce/qr-sole.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "giudizio": {
     "numero": "XX",
     "nome": "Il Giudizio",
-    "titolo": "La Traccia del Richiamo",
-    "domanda": "Quale parte di te sta chiedendo ascolto?",
+    "titolo": "La Traccia della Chiamata",
+    "domanda": "Quale parte di te sta chiedendo di essere richiamata in vita?",
     "carta": "assets/tracce/giudizio.jpg",
-    "audio": "assets/tracce/giudizio.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Il Giudizio non è condanna: è richiamo. Una voce dall’alto risveglia qualcosa che era rimasto sepolto.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "Non ogni richiamo viene da fuori."
+        "fine": 5,
+        "testo": "Il Giudizio non punta il dito."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "A volte è una parte di te che torna."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "Chiama fuori ciò che era rimasto sepolto."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Quale parte di te sta chiedendo ascolto?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale parte di te sta chiedendo di essere richiamata in vita?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando riconosci la chiamata."
       }
     ],
-    "audioM4a": "assets/tracce/giudizio.m4a",
-    "qr": "assets/tracce/qr-giudizio.png"
+    "qr": "assets/tracce/qr-giudizio.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   },
   "mondo": {
     "numero": "XXI",
     "nome": "Il Mondo",
-    "titolo": "La Traccia dell’Intero",
-    "domanda": "Che cosa sei pronto a integrare?",
+    "titolo": "La Traccia del Centro",
+    "domanda": "Quale parte di te è pronta a smettere di restare ai margini?",
     "carta": "assets/tracce/mondo.jpg",
-    "audio": "assets/tracce/mondo.mp3",
+    "audio": "",
+    "audioM4a": "",
     "cta": "Segui la Traccia",
     "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "curiosita": "Il Mondo chiude il viaggio degli Arcani numerati: al centro non c’è possesso, ma integrazione delle parti.",
     "sottotitoli": [
       {
         "inizio": 0,
-        "fine": 4,
-        "testo": "L’intero non cancella le parti."
+        "fine": 5,
+        "testo": "Il Mondo non è un traguardo da esibire."
       },
       {
-        "inizio": 4,
-        "fine": 8,
-        "testo": "Le rimette in relazione."
+        "inizio": 5,
+        "fine": 10,
+        "testo": "È il momento in cui le parti trovano un centro."
       },
       {
-        "inizio": 8,
-        "fine": 13,
-        "testo": "Che cosa sei pronto a integrare?"
+        "inizio": 10,
+        "fine": 15,
+        "testo": "Quale parte di te è pronta a smettere di restare ai margini?"
+      },
+      {
+        "inizio": 15,
+        "fine": 19,
+        "testo": "La Traccia continua quando torni intero."
       }
     ],
-    "audioM4a": "assets/tracce/mondo.m4a",
-    "qr": "assets/tracce/qr-mondo.png"
+    "qr": "assets/tracce/qr-mondo.png",
+    "audioLabel": "Leggi la Traccia",
+    "audioLabelWithAudio": "Ascolta la voce del Tarocco"
   }
 }
