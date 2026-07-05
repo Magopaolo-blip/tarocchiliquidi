@@ -1,0 +1,641 @@
+{
+  "matto": {
+    "numero": "Le Mat",
+    "nome": "Il Matto",
+    "titolo": "La Traccia del Movimento",
+    "domanda": "Quale passo continui a rimandare?",
+    "carta": "assets/tracce/matto.jpg",
+    "audio": "assets/tracce/matto.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "A volte il movimento nasce prima della spiegazione."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Non tutto ciò che chiama ha già una forma."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Quale passo continui a rimandare?"
+      }
+    ],
+    "audioM4a": "assets/tracce/matto.m4a",
+    "qr": "assets/tracce/qr-matto.png"
+  },
+  "bagatto": {
+    "numero": "I",
+    "nome": "Il Bagatto",
+    "titolo": "La Traccia dell’Inizio",
+    "domanda": "Cosa puoi iniziare con ciò che hai già?",
+    "carta": "assets/tracce/bagatto.jpg",
+    "audio": "assets/tracce/bagatto.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Ogni inizio chiede strumenti semplici."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Spesso sono già davanti a te."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Cosa puoi iniziare con ciò che hai già?"
+      }
+    ],
+    "audioM4a": "assets/tracce/bagatto.m4a",
+    "qr": "assets/tracce/qr-bagatto.png"
+  },
+  "papessa": {
+    "numero": "II",
+    "nome": "La Papessa",
+    "titolo": "La Traccia dell’Ascolto",
+    "domanda": "Che cosa sai già, ma non stai ascoltando?",
+    "carta": "assets/tracce/papessa.jpg",
+    "audio": "assets/tracce/papessa.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Non ogni risposta arriva parlando."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Alcune chiedono silenzio e attenzione."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Che cosa sai già, ma non stai ascoltando?"
+      }
+    ],
+    "audioM4a": "assets/tracce/papessa.m4a",
+    "qr": "assets/tracce/qr-papessa.png"
+  },
+  "imperatrice": {
+    "numero": "III",
+    "nome": "L’Imperatrice",
+    "titolo": "La Traccia della Forma",
+    "domanda": "Quale idea chiede di diventare reale?",
+    "carta": "assets/tracce/imperatrice.jpg",
+    "audio": "assets/tracce/imperatrice.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Un’idea resta fragile finché non trova corpo."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "La forma non chiude: rende visibile."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Quale idea chiede di diventare reale?"
+      }
+    ],
+    "audioM4a": "assets/tracce/imperatrice.m4a",
+    "qr": "assets/tracce/qr-imperatrice.png"
+  },
+  "imperatore": {
+    "numero": "IIII",
+    "nome": "L’Imperatore",
+    "titolo": "La Traccia della Struttura",
+    "domanda": "Dove serve una decisione più chiara?",
+    "carta": "assets/tracce/imperatore.jpg",
+    "audio": "assets/tracce/imperatore.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "La chiarezza non irrigidisce: sostiene."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Ci sono momenti in cui serve una forma stabile."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Dove serve una decisione più chiara?"
+      }
+    ],
+    "audioM4a": "assets/tracce/imperatore.m4a",
+    "qr": "assets/tracce/qr-imperatore.png"
+  },
+  "papa": {
+    "numero": "V",
+    "nome": "Il Papa",
+    "titolo": "La Traccia del Passaggio",
+    "domanda": "Quale consiglio sei pronto a ricevere davvero?",
+    "carta": "assets/tracce/papa.jpg",
+    "audio": "assets/tracce/papa.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Non ogni guida indica una strada nuova."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "A volte conferma ciò che stai evitando."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Quale consiglio sei pronto a ricevere davvero?"
+      }
+    ],
+    "audioM4a": "assets/tracce/papa.m4a",
+    "qr": "assets/tracce/qr-papa.png"
+  },
+  "amoureux": {
+    "numero": "VI",
+    "nome": "L’Amoureux",
+    "titolo": "La Traccia della Scelta",
+    "domanda": "C’è una scelta che continui a rimandare?",
+    "carta": "https://upload.wikimedia.org/wikipedia/commons/a/a6/L%27Amoureux.jpg",
+    "audio": "assets/tracce/amoureux.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Non tutte le scelte chiedono una risposta immediata."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Alcune chiedono solo di essere guardate davvero."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Cosa stai scegliendo quando continui a rimandare?"
+      }
+    ],
+    "nota_carta": "Wikimedia Commons, Public Domain/PD-self: File:L'Amoureux.jpg",
+    "audioM4a": "assets/tracce/amoureux.m4a",
+    "qr": "assets/tracce/qr-amoureux.png"
+  },
+  "carro": {
+    "numero": "VII",
+    "nome": "Il Carro",
+    "titolo": "La Traccia della Direzione",
+    "domanda": "Dove stai andando con tutta questa energia?",
+    "carta": "assets/tracce/carro.jpg",
+    "audio": "assets/tracce/carro.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "L’energia ha bisogno di una direzione."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Altrimenti corre, ma non arriva."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Dove stai andando con tutta questa energia?"
+      }
+    ],
+    "audioM4a": "assets/tracce/carro.m4a",
+    "qr": "assets/tracce/qr-carro.png"
+  },
+  "giustizia": {
+    "numero": "VIII",
+    "nome": "La Giustizia",
+    "titolo": "La Traccia dell’Equilibrio",
+    "domanda": "Che cosa chiede di essere rimesso al suo posto?",
+    "carta": "assets/tracce/giustizia.jpg",
+    "audio": "assets/tracce/giustizia.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "L’equilibrio non è immobilità."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "È una misura che torna visibile."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Che cosa chiede di essere rimesso al suo posto?"
+      }
+    ],
+    "audioM4a": "assets/tracce/giustizia.m4a",
+    "qr": "assets/tracce/qr-giustizia.png"
+  },
+  "eremita": {
+    "numero": "VIIII",
+    "nome": "L’Eremita",
+    "titolo": "La Traccia della Luce",
+    "domanda": "Cosa puoi vedere solo rallentando?",
+    "carta": "assets/tracce/eremita.jpg",
+    "audio": "assets/tracce/eremita.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Ci sono luci che si vedono solo da vicino."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Per questo serve rallentare."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Cosa puoi vedere solo rallentando?"
+      }
+    ],
+    "audioM4a": "assets/tracce/eremita.m4a",
+    "qr": "assets/tracce/qr-eremita.png"
+  },
+  "ruota": {
+    "numero": "X",
+    "nome": "La Ruota di Fortuna",
+    "titolo": "La Traccia del Ciclo",
+    "domanda": "Quale schema si sta ripetendo?",
+    "carta": "assets/tracce/ruota.jpg",
+    "audio": "assets/tracce/ruota.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Non tutto torna per caso."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "A volte un ciclo chiede di essere riconosciuto."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Quale schema si sta ripetendo?"
+      }
+    ],
+    "audioM4a": "assets/tracce/ruota.m4a",
+    "qr": "assets/tracce/qr-ruota.png"
+  },
+  "forza": {
+    "numero": "XI",
+    "nome": "La Forza",
+    "titolo": "La Traccia del Coraggio",
+    "domanda": "Quale forza stai trattenendo?",
+    "carta": "assets/tracce/forza.jpg",
+    "audio": "assets/tracce/forza.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "La forza più sottile non schiaccia."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Tiene aperto ciò che fa paura."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Quale forza stai trattenendo?"
+      }
+    ],
+    "audioM4a": "assets/tracce/forza.m4a",
+    "qr": "assets/tracce/qr-forza.png"
+  },
+  "appeso": {
+    "numero": "XII",
+    "nome": "L’Appeso",
+    "titolo": "La Traccia del Rovesciamento",
+    "domanda": "Cosa cambia se guardi tutto da un altro punto?",
+    "carta": "assets/tracce/appeso.jpg",
+    "audio": "assets/tracce/appeso.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Quando nulla si muove, può cambiare lo sguardo."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Il punto di vista è già una soglia."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Cosa cambia se guardi tutto da un altro punto?"
+      }
+    ],
+    "audioM4a": "assets/tracce/appeso.m4a",
+    "qr": "assets/tracce/qr-appeso.png"
+  },
+  "arcano-senza-nome": {
+    "numero": "XIII",
+    "nome": "L’Arcano senza Nome",
+    "titolo": "La Traccia del Taglio",
+    "domanda": "Che cosa ha finito il suo compito?",
+    "carta": "assets/tracce/arcano-senza-nome.jpg",
+    "audio": "assets/tracce/arcano-senza-nome.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Non ogni fine è una perdita."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "A volte è spazio che torna disponibile."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Che cosa ha finito il suo compito?"
+      }
+    ],
+    "audioM4a": "assets/tracce/arcano-senza-nome.m4a",
+    "qr": "assets/tracce/qr-arcano-senza-nome.png"
+  },
+  "temperanza": {
+    "numero": "XIIII",
+    "nome": "Temperanza",
+    "titolo": "La Traccia del Passaggio",
+    "domanda": "Che cosa va versato con più misura?",
+    "carta": "assets/tracce/temperanza.jpg",
+    "audio": "assets/tracce/temperanza.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "La misura non spegne l’intensità."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Le permette di circolare."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Che cosa va versato con più misura?"
+      }
+    ],
+    "audioM4a": "assets/tracce/temperanza.m4a",
+    "qr": "assets/tracce/qr-temperanza.png"
+  },
+  "diavolo": {
+    "numero": "XV",
+    "nome": "Il Diavolo",
+    "titolo": "La Traccia del Legame",
+    "domanda": "A che cosa stai dando troppo potere?",
+    "carta": "assets/tracce/diavolo.jpg",
+    "audio": "assets/tracce/diavolo.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Un legame può nutrire o trattenere."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "La differenza si sente nel corpo."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "A che cosa stai dando troppo potere?"
+      }
+    ],
+    "audioM4a": "assets/tracce/diavolo.m4a",
+    "qr": "assets/tracce/qr-diavolo.png"
+  },
+  "torre": {
+    "numero": "XVI",
+    "nome": "La Torre",
+    "titolo": "La Traccia dell’Apertura",
+    "domanda": "Che cosa si sta aprendo mentre qualcosa cede?",
+    "carta": "assets/tracce/torre.jpg",
+    "audio": "assets/tracce/torre.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Ciò che cede non sempre distrugge."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "A volte lascia entrare aria."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Che cosa si sta aprendo mentre qualcosa cede?"
+      }
+    ],
+    "audioM4a": "assets/tracce/torre.m4a",
+    "qr": "assets/tracce/qr-torre.png"
+  },
+  "stella": {
+    "numero": "XVII",
+    "nome": "La Stella",
+    "titolo": "La Traccia della Fiducia",
+    "domanda": "Dove puoi tornare semplice?",
+    "carta": "assets/tracce/stella.jpg",
+    "audio": "assets/tracce/stella.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "La fiducia non chiede rumore."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "A volte somiglia a tornare semplici."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Dove puoi tornare semplice?"
+      }
+    ],
+    "audioM4a": "assets/tracce/stella.m4a",
+    "qr": "assets/tracce/qr-stella.png"
+  },
+  "luna": {
+    "numero": "XVIII",
+    "nome": "La Luna",
+    "titolo": "La Traccia dell’Immagine",
+    "domanda": "Quale paura sta prendendo forma?",
+    "carta": "assets/tracce/luna.jpg",
+    "audio": "assets/tracce/luna.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Non tutto ciò che appare grande lo è davvero."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Le immagini crescono nel buio."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Quale paura sta prendendo forma?"
+      }
+    ],
+    "audioM4a": "assets/tracce/luna.m4a",
+    "qr": "assets/tracce/qr-luna.png"
+  },
+  "sole": {
+    "numero": "XVIIII",
+    "nome": "Il Sole",
+    "titolo": "La Traccia della Chiarezza",
+    "domanda": "Che cosa diventa semplice alla luce?",
+    "carta": "assets/tracce/sole.jpg",
+    "audio": "assets/tracce/sole.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "La chiarezza non sempre aggiunge."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Spesso toglie ciò che confonde."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Che cosa diventa semplice alla luce?"
+      }
+    ],
+    "audioM4a": "assets/tracce/sole.m4a",
+    "qr": "assets/tracce/qr-sole.png"
+  },
+  "giudizio": {
+    "numero": "XX",
+    "nome": "Il Giudizio",
+    "titolo": "La Traccia del Richiamo",
+    "domanda": "Quale parte di te sta chiedendo ascolto?",
+    "carta": "assets/tracce/giudizio.jpg",
+    "audio": "assets/tracce/giudizio.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "Non ogni richiamo viene da fuori."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "A volte è una parte di te che torna."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Quale parte di te sta chiedendo ascolto?"
+      }
+    ],
+    "audioM4a": "assets/tracce/giudizio.m4a",
+    "qr": "assets/tracce/qr-giudizio.png"
+  },
+  "mondo": {
+    "numero": "XXI",
+    "nome": "Il Mondo",
+    "titolo": "La Traccia dell’Intero",
+    "domanda": "Che cosa sei pronto a integrare?",
+    "carta": "assets/tracce/mondo.jpg",
+    "audio": "assets/tracce/mondo.mp3",
+    "cta": "Segui la Traccia",
+    "link": "https://www.tarocchiliquidi.it/primo-passo.html",
+    "sottotitoli": [
+      {
+        "inizio": 0,
+        "fine": 4,
+        "testo": "L’intero non cancella le parti."
+      },
+      {
+        "inizio": 4,
+        "fine": 8,
+        "testo": "Le rimette in relazione."
+      },
+      {
+        "inizio": 8,
+        "fine": 13,
+        "testo": "Che cosa sei pronto a integrare?"
+      }
+    ],
+    "audioM4a": "assets/tracce/mondo.m4a",
+    "qr": "assets/tracce/qr-mondo.png"
+  }
+}
