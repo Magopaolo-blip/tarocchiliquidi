@@ -1,53 +1,22 @@
-TAROCCHI LIQUIDI — 22 TRACCE v9
-Testo/sottotitoli senza audio obbligatorio + musica di sottofondo
+TAROCCHI LIQUIDI — 22 TRACCE v10
 
-COSA CARICARE SU GITHUB
+CORREZIONI v10
+- Dopo “Attiva la Traccia”, se non è presente un audio, i testi/sottotitoli partono automaticamente.
+- La musica di sottofondo parte quando si attiva la Traccia.
+- Il pulsante “Leggi/Ascolta” non appare quando l’audio non è ancora presente.
+- L’Amoureux richiama direttamente l’immagine reale da Wikimedia Commons.
 
-1) Nella ROOT del sito, insieme a index.html:
+CARICAMENTO
+1) Nella root del sito, sovrascrivi:
    - traccia.html
-   - sticker-22-tracce.html  (pagina per vedere/stampare i 22 QR)
+   - sticker-22-tracce.html
 
-2) Dentro la cartella già esistente:
-   assets/tracce/
-
-   carica tutti questi file:
+2) Dentro assets/tracce, carica/sovrascrivi TUTTI i file contenuti nella cartella assets/tracce dello ZIP:
    - tracce.json
    - musica-traccia.mp3
-   - tutti i file qr-*.png
+   - tutti i qr-*.png
 
-IMPORTANTE
-In questa versione gli audio della voce NON sono obbligatori.
-Se nel file tracce.json il campo audio è vuoto, la pagina mostra solo i sottotitoli/testo.
-Il bottone diventa automaticamente: "Leggi la Traccia".
-
-MUSICA DI SOTTOFONDO
-La musica parte quando l'utente preme "Attiva la Traccia" e si apre la carta.
-Il file da caricare è:
-
-   assets/tracce/musica-traccia.mp3
-
-È una musica ambientale originale generata per questa esperienza, quindi non devi usare brani coperti da copyright.
-
-QUANDO VORRAI AGGIUNGERE LA VOCE
-Per ogni Arcano carica, nella stessa cartella assets/tracce/, un file audio:
-
-   matto.mp3
-   bagatto.mp3
-   papessa.mp3
-   ...
-
-Poi nel file tracce.json modifica, per esempio:
-
-   "audio": "assets/tracce/matto.mp3"
-
-oppure se usi m4a:
-
-   "audioM4a": "assets/tracce/matto.m4a"
-
-Quando il campo audio è compilato, il bottone diventa automaticamente:
-"Ascolta la voce del Tarocco".
-
-LINK DI TEST
+TEST
 https://www.tarocchiliquidi.it/traccia.html?a=amoureux
-https://www.tarocchiliquidi.it/traccia.html?a=matto
-https://www.tarocchiliquidi.it/sticker-22-tracce.html
+
+Se vedi ancora la versione precedente, apri in finestra anonima o aggiorna svuotando cache.
