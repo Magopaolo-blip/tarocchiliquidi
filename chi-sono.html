@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Marcellus&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/favicon.png">
-  <link rel="stylesheet" href="css/style.css?v=tl-next-v12">
+  <link rel="stylesheet" href="css/style.css?v=tl-next-v18">
   <title>Paolo Musetti | Tarocchi Liquidi</title>
   <meta name="description" content="Paolo Musetti, fondatore di Tarocchi Liquidi: performer, autore e formatore con oltre quarant’anni di esperienza nel lavoro con pubblico, narrazione e ascolto.">
   <link rel="canonical" href="https://www.tarocchiliquidi.it/chi-sono.html">
@@ -33,7 +33,7 @@
       },
       {
         "@type": "Book",
-        "name": "Logos e Simboli",
+        "name": "Logos e Risonanza",
         "url": "https://amzn.eu/d/03L5BoKi"
       },
       {
@@ -44,6 +44,19 @@
     ]
   }
   </script>
+
+  <style>
+    /* TL v18: sezione libri Paolo definitiva, indipendente dal CSS globale */
+    #libri.tl-books-section{padding:48px 24px 54px!important;}
+    #libri .tl-books-wrap{max-width:940px!important;margin:22px auto 0!important;display:flex!important;flex-direction:row!important;gap:18px!important;justify-content:center!important;align-items:stretch!important;}
+    #libri .tl-book-card{width:calc((100% - 36px)/3)!important;max-width:300px!important;min-width:0!important;background:#fff!important;border:1px solid rgba(160,150,138,.28)!important;box-shadow:0 10px 28px rgba(21,19,18,.045)!important;padding:16px!important;display:flex!important;flex-direction:column!important;align-items:center!important;text-align:left!important;}
+    #libri .tl-book-cover{width:118px!important;height:164px!important;max-width:118px!important;max-height:164px!important;min-width:118px!important;min-height:164px!important;object-fit:contain!important;display:block!important;margin:0 auto 14px!important;background:#f4f0e8!important;border:1px solid rgba(160,150,138,.22)!important;}
+    #libri .tl-book-body{width:100%!important;display:flex!important;flex-direction:column!important;gap:8px!important;align-items:flex-start!important;}
+    #libri .tl-book-body h3{font-size:18px!important;line-height:1.1!important;margin:0!important;}
+    #libri .tl-book-body p{font-size:13px!important;line-height:1.42!important;margin:0!important;color:#4c4741!important;}
+    #libri .tl-book-body .button{font-size:11.5px!important;padding:7px 11px!important;margin-top:4px!important;}
+    @media(max-width:820px){#libri .tl-books-wrap{flex-direction:column!important;max-width:360px!important;}#libri .tl-book-card{width:100%!important;max-width:360px!important;}#libri .tl-book-cover{width:138px!important;height:192px!important;max-width:138px!important;max-height:192px!important;}}
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
@@ -89,34 +102,37 @@
     </section>
 
 
-    <section class="section books-section paper" id="libri">
+    <section class="section books-section paper tl-books-section" id="libri">
       <div class="shell narrow center">
         <p class="eyebrow">Libri</p>
         <h2>Tre libri che accompagnano il percorso.</h2>
         <p class="lead small">Pubblicazioni nate dallo studio, dalla pratica e dal lavoro con immagini, parole, narrazione e Tarocchi.</p>
       </div>
-      <div class="shell books-grid">
-        <article class="book-card">
-          <div class="book-cover-placeholder" aria-hidden="true">TAROT</div>
-          <div class="book-content">
+
+      <div class="tl-books-wrap" aria-label="Libri di Paolo Musetti">
+        <article class="tl-book-card">
+          <img class="tl-book-cover" src="assets/thumb-libro-tarot-metodo-arianna.jpg?v=tl-next-v18" width="118" height="164" alt="Copertina del libro TAROT — Il Metodo Arianna" loading="lazy">
+          <div class="tl-book-body">
             <h3>TAROT — Il Metodo Arianna</h3>
-            <p>Un manuale dedicato al lavoro con i Tarocchi di Marsiglia e al percorso di lettura, ascolto e orientamento che ha dato forma al Metodo Arianna.</p>
+            <p>Il metodo per leggere i Tarocchi di Marsiglia attraverso domanda, immagine, relazione e Traccia.</p>
             <a class="button secondary" href="https://amzn.eu/d/0cgquMxB" target="_blank" rel="noopener noreferrer">Acquista su Amazon</a>
           </div>
         </article>
-        <article class="book-card">
-          <div class="book-cover-placeholder" aria-hidden="true">Logos<br>e Simboli</div>
-          <div class="book-content">
-            <h3>Logos e Simboli</h3>
-            <p>Un approfondimento sul rapporto tra parola, immagine e significato: il linguaggio come strumento per leggere ciò che accade e dargli forma.</p>
+
+        <article class="tl-book-card">
+          <img class="tl-book-cover" src="assets/thumb-libro-logos-e-risonanza.jpg?v=tl-next-v18" width="118" height="164" alt="Copertina del libro Logos e Risonanza" loading="lazy">
+          <div class="tl-book-body">
+            <h3>Logos e Risonanza</h3>
+            <p>Una ricerca su linguaggio, campo, risonanza e scelte profonde.</p>
             <a class="button secondary" href="https://amzn.eu/d/03L5BoKi" target="_blank" rel="noopener noreferrer">Acquista su Amazon</a>
           </div>
         </article>
-        <article class="book-card">
-          <div class="book-cover-placeholder" aria-hidden="true">Guarda<br>la Carta</div>
-          <div class="book-content">
+
+        <article class="tl-book-card">
+          <img class="tl-book-cover" src="assets/thumb-libro-guarda-la-carta.jpg?v=tl-next-v18" width="118" height="164" alt="Copertina del libro Guarda la Carta" loading="lazy">
+          <div class="tl-book-body">
             <h3>Guarda la Carta</h3>
-            <p>Un invito a osservare la carta prima di interpretarla: immagini, dettagli e domande come strumenti per aprire uno sguardo nuovo.</p>
+            <p>Il metodo Occhi di Bambino per osservare la carta prima di interpretarla.</p>
             <a class="button secondary" href="https://amzn.eu/d/0hPa97gH" target="_blank" rel="noopener noreferrer">Acquista su Amazon</a>
           </div>
         </article>
@@ -167,6 +183,6 @@
   </div>
 </footer>
 <a class="mobile-sticky" href="https://wa.me/393282924284?text=Vorrei%20parlare%20di%20Tarocchi%20Liquidi">Parliamone su WhatsApp</a>
-  <script src="js/script.js?v=tl-next-v12"></script>
+  <script src="js/script.js?v=tl-next-v18"></script>
 </body>
 </html>
